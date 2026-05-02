@@ -14,6 +14,9 @@ REQUIRED_GEN_PACK_LIB="0.12.0"
 # Set default command line arguments
 DEFAULT_ARGS=()
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export CMSIS_PACK_ROOT="${CMSIS_PACK_ROOT:-${SCRIPT_DIR}}"
+
 # Extract release metadata from v-prefixed Git tags when building a tagged revision.
 CURRENT_TAG="$(git describe --exact-match --tags HEAD 2>/dev/null || true)"
 TAG_VERSION=""
@@ -74,9 +77,15 @@ PACK_DELETE_FILES="
 # Specify additional dependencies for packchk
 # Default: empty
 #
-# PACKCHK_DEPS="
-#   <list pdsc files here>
-# "
+PACKCHK_DEPS="
+  https://www.keil.com/pack/ARM.CMSIS.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.stm32c5xx_dfp.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.button_hw-part.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.crystal_hw-part.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.esd_hw-part.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.led_hw-part.pdsc
+  https://developer.st.com/st-pack-server/api/v1/pack/STMicroelectronics.st-link_hw-part.pdsc
+"
 
 # Optional: restrict fallback modes for changelog generation
 # Default: full
@@ -106,6 +115,57 @@ PACK_DELETE_FILES="
 #   <build>  The build folder
 #
 function preprocess() {
+  local pack_root="${CMSIS_PACK_ROOT}"
+  local web_dir="${pack_root}/.Web"
+  local local_dir="${pack_root}/.Local"
+  local local_pack_dir="${local_dir}/MyVendor.my-hw-part"
+  local local_pack_url="file://localhost/${local_pack_dir}/"
+  local myvendor_release_pack_url="https://github.com/Orel138/HW_Part_Template_MX2_pack/releases/download/v1.0.0/MyVendor.my-hw-part.1.0.0.pack"
+  local myvendor_repo_base_url="https://raw.githubusercontent.com/Orel138/HW_Part_Template_MX2_pack/main"
+  local myvendor_pack_archive="${TEMP:-/tmp}/MyVendor.my-hw-part.1.0.0.pack"
+
+  mkdir -p "${web_dir}"
+  cat > "${web_dir}/index.pidx" <<'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<index schemaVersion="1.1.0" xs:noNamespaceSchemaLocation="PackIndex.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <vendor>Local</vendor>
+  <timestamp>2026-05-02T00:00:00Z</timestamp>
+  <pindex>
+    <pdsc url="https://www.keil.com/pack/" vendor="ARM" name="CMSIS" version="6.1.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="stm32c5xx_dfp" version="2.0.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="button_hw-part" version="2.0.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="crystal_hw-part" version="2.1.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="esd_hw-part" version="2.1.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="led_hw-part" version="2.3.0"/>
+    <pdsc url="https://developer.st.com/st-pack-server/api/v1/pack/" vendor="STMicroelectronics" name="st-link_hw-part" version="2.0.0"/>
+  </pindex>
+</index>
+EOF
+
+  mkdir -p "${local_dir}"
+  rm -rf "${local_pack_dir}"
+
+  if curl_download "${myvendor_release_pack_url}" "${myvendor_pack_archive}"; then
+    mkdir -p "${local_pack_dir}"
+    "${UTILITY_ZIP}" x -y "-o${local_pack_dir}" "${myvendor_pack_archive}" >/dev/null
+  else
+    mkdir -p "${local_pack_dir}/Descriptors/pinout"
+    curl_download "${myvendor_repo_base_url}/MyVendor.my-hw-part.pdsc" "${local_pack_dir}/MyVendor.my-hw-part.pdsc"
+    curl_download "${myvendor_repo_base_url}/LICENSE.md" "${local_pack_dir}/LICENSE.md"
+    curl_download "${myvendor_repo_base_url}/Descriptors/pinout/my-hw-part_pinout.json" "${local_pack_dir}/Descriptors/pinout/my-hw-part_pinout.json"
+  fi
+
+  cat > "${local_dir}/local_repository.pidx" <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<index schemaVersion="1.1.0">
+  <vendor>local_repository</vendor>
+  <timestamp>2026-05-02T00:00:00Z</timestamp>
+  <pindex>
+    <pdsc url="${local_pack_url}" vendor="MyVendor" name="my-hw-part" version="1.0.0"/>
+  </pindex>
+</index>
+EOF
+
   # add custom steps here to be executed
   # before populating the pack build folder
   return 0
