@@ -4,7 +4,7 @@
   <name>nucleo-c5orel_hw-board</name>
   <description>STM32 Nucleo-144 development board with STM32C5A3ZG MCU, supports Arduino and ST morpho connectivity</description>
   <license>LICENSE.txt</license>
-  <url>https://developer.st.com/st-pack-server/api/v1/pack/</url>
+  <url>https://github.com/Orel138/HW_Board_Template_MX2_pack/raw/main/</url>
   <releases>
     <release version="2.0.0" date="2026-01-30">
       Initial version
