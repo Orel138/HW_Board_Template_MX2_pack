@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.0.0",
+  "pcb": "MB1234",
+  "revision": "B02",
+  "connectors": [
+    {
+      "name": "Arduino",
+      "type": "Arduino UNO ver 3 rel 0",
+      "version": "1.0.0",
+      "roles": [
+        { "type": "POWER", "id": "CN6" },
+        { "type": "ANALOG", "id": "CN8" },
+        { "type": "DIGITAL TOP", "id": "CN5" },
+        { "type": "DIGITAL BOTTOM", "id": "CN9" }
+      ]
+    },
+    {
+      "name": "USB",
+      "type": "USB",
+      "version": "1.0.0",
+      "roles": [{ "type": "C", "id": "CN13" }]
+    }
+  ]
+}

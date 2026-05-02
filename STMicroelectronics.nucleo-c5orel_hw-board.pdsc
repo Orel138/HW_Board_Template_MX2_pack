@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.7.55" xsi:noNamespaceSchemaLocation="PACK.xsd" xmlns:stm32="https://developer.st.com/schemas/stm32cube/1.0.0" xsi:schemaLocation="https://developer.st.com/schemas/stm32cube/1.0.0 stm32cube.xsd">
+  <vendor>STMicroelectronics</vendor>
+  <name>nucleo-c5orel_hw-board</name>
+  <description>STM32 Nucleo-144 development board with STM32C5A3ZG MCU, supports Arduino and ST morpho connectivity</description>
+  <license>LICENSE.txt</license>
+  <url>https://developer.st.com/st-pack-server/api/v1/pack/</url>
+  <releases>
+    <release version="2.0.0" date="2026-01-30">
+      Initial version
+      Pack tested with STM32CubeMX v0.1.634
+    </release>
+  </releases>
+  <keywords>
+    <keyword>STMicroelectronics</keyword>
+    <keyword>ST</keyword>
+    <keyword>Nucleo Board</keyword>
+    <keyword>NUCLEO-C5OREL</keyword>
+    <keyword>STM32C5</keyword>
+  </keywords>
+  <ECCN>
+    <ECCN-EU>NEC</ECCN-EU>
+    <ECCN-US>5A992.c</ECCN-US>
+  </ECCN>
+  <environments>
+    <environment name="STM32Cube">
+      <stm32:pack type="HWBOARD" friendlyName="NUCLEO-C5OREL" shortDesc="STM32 Nucleo-144 development board with STM32C5A3ZG MCU">
+        <compatibility>
+          <release version="2.0.0">
+            <applicable-schema schemaType="partlist" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="netlist" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="configuration-pcb" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="bom" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="part-parameters" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="parameters" schemaVersion="1.0.0"/>
+            <applicable-schema schemaType="connectors" schemaVersion="1.0.0"/>
+          </release>
+        </compatibility>
+      </stm32:pack>
+    </environment>
+  </environments>
+  <requirements>
+    <packages>
+      <package vendor="STMicroelectronics" name="stm32c5xx_dfp"/>
+      <package vendor="STMicroelectronics" name="button_hw-part" version="2.0.0"/>
+      <package vendor="STMicroelectronics" name="crystal_hw-part" version="2.1.0"/>
+      <package vendor="STMicroelectronics" name="esd_hw-part" version="2.1.0"/>
+      <package vendor="STMicroelectronics" name="led_hw-part" version="2.3.0"/>
+      <package vendor="MyVendor" name="my-hw-part" version="1.0.0"/>
+      <package vendor="STMicroelectronics" name="st-link_hw-part" version="2.0.0"/>
+    </packages>
+  </requirements>
+  <boards>
+    <board vendor="STMicroelectronics" name="NUCLEO-C5OREL" revision="NUC5A3ZG$KR1" uuid="80e11be1-cef1-4ee1-b5c4-9d0279b8a4c8" salesContact="https://www.st.com/stonline/contactus/contacts/index.php">
+      <description>STM32 Nucleo-144 development board with STM32C5A3ZG MCU, supports Arduino and ST morpho connectivity</description>
+      <image small="Images/nucleo-c5orel_image_small.png" bottom="Images/nucleo-c5orel_image_rear.png" large="Images/nucleo-c5orel_image_front.png" perspective="Images/nucleo-c5orel_image_perspective.png"/>
+      <environment name="STM32Cube">
+        <stm32:board revisionIndex="1" isDefault="true">
+          <extra-attributes>
+            <extra-attribute name="series" value="STM32C5"/>
+            <extra-attribute name="board type" value="Nucleo Board"/>
+          </extra-attributes>
+          <mountedDeviceCut revision="Z"/>
+          <pcbs>
+            <pcb name="MB1234" variant="C5A3ZG" revision="B02">
+              <description>Motherboard</description>
+              <descriptors>
+                <descriptor schemaType="partlist" path="Descriptors/NUC5A3ZG$KR1/pcbs/MB1234/partlist.json" schemaVersion="1.0.0" version="1.0.0"/>
+                <descriptor schemaType="netlist" path="Descriptors/NUC5A3ZG$KR1/pcbs/MB1234/netlist.json" schemaVersion="1.0.0" version="1.0.0"/>
+                <descriptor schemaType="configuration-pcb" path="Descriptors/NUC5A3ZG$KR1/pcbs/MB1234/config.json" schemaVersion="1.0.0" version="1.0.0"/>
+                <descriptor schemaType="part-parameters" path="Descriptors/NUC5A3ZG$KR1/pcbs/MB1234/part-parameters.json" schemaVersion="1.0.0" version="1.0.0"/>
+                <descriptor schemaType="connectors" path="Descriptors/NUC5A3ZG$KR1/pcbs/MB1234/connectors.json" schemaVersion="1.0.0" version="1.0.0"/>
+              </descriptors>
+            </pcb>
+          </pcbs>
+          <descriptors>
+            <descriptor schemaType="bom" path="Descriptors/NUC5A3ZG$KR1/bom.json" schemaVersion="1.0.0" version="1.0.0"/>
+            <descriptor schemaType="parameters" path="Descriptors/NUC5A3ZG$KR1/parameters.json" schemaVersion="1.0.0" version="1.0.0"/>
+          </descriptors>
+        </stm32:board>
+      </environment>
+      <mountedDevice deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32C5A3ZGT6"/>
+      <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32C5A3ZGT6"/>
+      <mountedPart Hvendor="C&amp;K" Hname="KSC721JLFS" n="1"/>
+      <mountedPart Hvendor="EVERLIGHT" Hname="19-217/BHC-ZL1M2RY/6T" n="1"/>
+      <mountedPart Hvendor="EVERLIGHT" Hname="19-217/G7C-AN1P2/6T" n="1"/>
+      <mountedPart Hvendor="EVERLIGHT" Hname="19-217/R6C-AL1M2VY/6T" n="1"/>
+      <mountedPart Hvendor="NDK" Hname="NX1610SE" Hvariant="NX1610SE-32.768KHz-EXS00A-MU01499" n="1"/>
+      <mountedPart Hvendor="NDK" Hname="NX1612SA" Hvariant="NX1612SA-48MHz-EXS00A-CS13835" n="1"/>
+      <mountedPart Hvendor="STMicroelectronics" Hname="ECMF2-40A100N6" Hvariant="ECMF2-40A100N6" n="1"/>
+      <mountedPart Hvendor="MyVendor" Hname="my-hw-part" Hvariant="MY-HW-PART-ETH" n="1"/>
+      <mountedPart Hvendor="STMicroelectronics" Hname="STLINK-V3EC" n="1"/>
+    </board>
+  </boards>
+</package>

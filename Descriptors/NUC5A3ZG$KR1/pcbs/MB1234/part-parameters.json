@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.0.0",
+  "pcb": "MB1234",
+  "revision": "B02",
+  "parts": {
+    "B1": { "localParameters": { "active_state": "HIGH" } },
+    "LD1": { "localParameters": { "active_state": "HIGH" } },
+    "LD2": { "localParameters": { "active_state": "LOW" } },
+    "LD3": { "localParameters": { "active_state": "LOW" } },
+    "U42": {
+      "localParameters": {
+        "role": "ethernet-transceiver",
+        "interface": "RMII"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.0.0",
+  "finished_good": "NUC5A3ZG$KR1",
+  "parameters": { "board": { "vdd": { "value": 3300, "unit": "mV" } } }
+}
