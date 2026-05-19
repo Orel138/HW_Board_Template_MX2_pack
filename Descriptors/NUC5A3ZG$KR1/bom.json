@@ -273,7 +273,7 @@
     { "pcb": "MB1234", "reference": "U11", "part_number": "ST730M33R" },
     { "pcb": "MB1234", "reference": "U15", "part_number": "LD39100PU33R" },
     { "pcb": "MB1234", "reference": "U16", "part_number": "LD1117S50TR" },
-    { "pcb": "MB1234", "reference": "U42", "part_number": "MY-HW-PART-ETH" },
+    { "pcb": "MB1234", "reference": "U42", "part_number": "MyHwPart-AB-CD" },
     { "pcb": "MB1234", "reference": "U18", "part_number": "USBLC6-4SC6" },
     { "pcb": "MB1234", "reference": "U19", "part_number": "KMS-1102NL" },
     { "pcb": "MB1234", "reference": "U20", "part_number": "STEF05SGR" },

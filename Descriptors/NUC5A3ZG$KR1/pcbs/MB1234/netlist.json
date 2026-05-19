@@ -3,3213 +3,7144 @@
   "version": "1.0.0",
   "pcb": "MB1234",
   "revision": "B02",
-  "power_supplies": ["VDD_MCU", "GND", "AGND", "3V3_STLK", "3V3", "SHGND", "3V3_SPE", "VREFP", "VIN", "3V3", "5V_EXT", "5V_VIN", "5V", "5V_STLK", "T_VCC_AIN", "T_VCC", "VBUS_STLK"],
+  "power_supplies": [
+    "VDD_MCU",
+    "GND",
+    "AGND",
+    "3V3_STLK",
+    "3V3",
+    "SHGND",
+    "3V3_SPE",
+    "VREFP",
+    "VIN",
+    "3V3",
+    "5V_EXT",
+    "5V_VIN",
+    "5V",
+    "5V_STLK",
+    "T_VCC_AIN",
+    "T_VCC",
+    "VBUS_STLK"
+  ],
   "nets": [
     {
       "netId": 0,
       "netLabel": "XSPI1.NCS2",
       "net": [
-        { "reference": "CN12", "pin": "4" },
-        { "reference": "R61", "pin": "2" },
-        { "reference": "SB42", "pin": "1" },
-        { "reference": "SB43", "pin": "1" }
+        {
+          "reference": "CN12",
+          "pin": "4"
+        },
+        {
+          "reference": "R61",
+          "pin": "2"
+        },
+        {
+          "reference": "SB42",
+          "pin": "1"
+        },
+        {
+          "reference": "SB43",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 1,
       "netLabel": "XSPI1.NCS1",
       "net": [
-        { "reference": "CN12", "pin": "2" },
-        { "reference": "CN19", "pin": "22" },
-        { "reference": "R54", "pin": "2" },
-        { "reference": "SB45", "pin": "1" }
+        {
+          "reference": "CN12",
+          "pin": "2"
+        },
+        {
+          "reference": "CN19",
+          "pin": "22"
+        },
+        {
+          "reference": "R54",
+          "pin": "2"
+        },
+        {
+          "reference": "SB45",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 2,
       "netLabel": "XSPI1.NCLK",
       "net": [
-        { "reference": "CN12", "pin": "10" },
-        { "reference": "CN19", "pin": "43" },
-        { "reference": "CN19", "pin": "73" },
-        { "reference": "R59", "pin": "1" }
+        {
+          "reference": "CN12",
+          "pin": "10"
+        },
+        {
+          "reference": "CN19",
+          "pin": "43"
+        },
+        {
+          "reference": "CN19",
+          "pin": "73"
+        },
+        {
+          "reference": "R59",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 3,
       "netLabel": "XSPI1.IO7",
       "net": [
-        { "reference": "CN12", "pin": "9" },
-        { "reference": "CN19", "pin": "27" },
-        { "reference": "CN19", "pin": "47" },
-        { "reference": "R55", "pin": "2" }
+        {
+          "reference": "CN12",
+          "pin": "9"
+        },
+        {
+          "reference": "CN19",
+          "pin": "27"
+        },
+        {
+          "reference": "CN19",
+          "pin": "47"
+        },
+        {
+          "reference": "R55",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 4,
       "netLabel": "XSPI1.IO6",
       "net": [
-        { "reference": "CN12", "pin": "7" },
-        { "reference": "CN19", "pin": "26" },
-        { "reference": "CN19", "pin": "49" },
-        { "reference": "R56", "pin": "2" }
+        {
+          "reference": "CN12",
+          "pin": "7"
+        },
+        {
+          "reference": "CN19",
+          "pin": "26"
+        },
+        {
+          "reference": "CN19",
+          "pin": "49"
+        },
+        {
+          "reference": "R56",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 5,
       "netLabel": "XSPI1.IO5",
       "net": [
-        { "reference": "CN12", "pin": "5" },
-        { "reference": "CN19", "pin": "28" },
-        { "reference": "CN19", "pin": "53" },
-        { "reference": "R57", "pin": "2" }
+        {
+          "reference": "CN12",
+          "pin": "5"
+        },
+        {
+          "reference": "CN19",
+          "pin": "28"
+        },
+        {
+          "reference": "CN19",
+          "pin": "53"
+        },
+        {
+          "reference": "R57",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 6,
       "netLabel": "XSPI1.IO4",
       "net": [
-        { "reference": "CN12", "pin": "3" },
-        { "reference": "CN19", "pin": "31" },
-        { "reference": "CN19", "pin": "55" },
-        { "reference": "R58", "pin": "2" }
+        {
+          "reference": "CN12",
+          "pin": "3"
+        },
+        {
+          "reference": "CN19",
+          "pin": "31"
+        },
+        {
+          "reference": "CN19",
+          "pin": "55"
+        },
+        {
+          "reference": "R58",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 7,
       "netLabel": "XSPI1.IO3",
       "net": [
-        { "reference": "CN11", "pin": "2" },
-        { "reference": "CN19", "pin": "32" },
-        { "reference": "CN19", "pin": "59" },
-        { "reference": "R63", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "2"
+        },
+        {
+          "reference": "CN19",
+          "pin": "32"
+        },
+        {
+          "reference": "CN19",
+          "pin": "59"
+        },
+        {
+          "reference": "R63",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 8,
       "netLabel": "XSPI1.IO2",
       "net": [
-        { "reference": "CN11", "pin": "4" },
-        { "reference": "CN19", "pin": "34" },
-        { "reference": "CN19", "pin": "61" },
-        { "reference": "R64", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "4"
+        },
+        {
+          "reference": "CN19",
+          "pin": "34"
+        },
+        {
+          "reference": "CN19",
+          "pin": "61"
+        },
+        {
+          "reference": "R64",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 9,
       "netLabel": "XSPI1.IO1",
       "net": [
-        { "reference": "CN11", "pin": "6" },
-        { "reference": "CN19", "pin": "35" },
-        { "reference": "CN19", "pin": "65" },
-        { "reference": "R65", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "6"
+        },
+        {
+          "reference": "CN19",
+          "pin": "35"
+        },
+        {
+          "reference": "CN19",
+          "pin": "65"
+        },
+        {
+          "reference": "R65",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 10,
       "netLabel": "XSPI1.IO0",
       "net": [
-        { "reference": "CN11", "pin": "8" },
-        { "reference": "CN19", "pin": "37" },
-        { "reference": "CN19", "pin": "67" },
-        { "reference": "R66", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "8"
+        },
+        {
+          "reference": "CN19",
+          "pin": "37"
+        },
+        {
+          "reference": "CN19",
+          "pin": "67"
+        },
+        {
+          "reference": "R66",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 11,
       "netLabel": "XSPI1.DQS0",
       "net": [
-        { "reference": "CN12", "pin": "6" },
-        { "reference": "CN19", "pin": "25" },
-        { "reference": "CN19", "pin": "56" },
-        { "reference": "R60", "pin": "2" }
+        {
+          "reference": "CN12",
+          "pin": "6"
+        },
+        {
+          "reference": "CN19",
+          "pin": "25"
+        },
+        {
+          "reference": "CN19",
+          "pin": "56"
+        },
+        {
+          "reference": "R60",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 12,
       "netLabel": "XSPI1.CLK",
       "net": [
-        { "reference": "CN12", "pin": "8" },
-        { "reference": "CN19", "pin": "41" },
-        { "reference": "CN19", "pin": "71" },
-        { "reference": "R67", "pin": "1" }
+        {
+          "reference": "CN12",
+          "pin": "8"
+        },
+        {
+          "reference": "CN19",
+          "pin": "41"
+        },
+        {
+          "reference": "CN19",
+          "pin": "71"
+        },
+        {
+          "reference": "R67",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 13,
       "netLabel": "VREFP",
       "net": [
-        { "reference": "C38", "pin": "1" },
-        { "reference": "C57", "pin": "2" },
-        { "reference": "C58", "pin": "2" },
-        { "reference": "R62", "pin": "2" },
-        { "reference": "SB6", "pin": "1" },
-        { "reference": "U1", "pin": "32" }
+        {
+          "reference": "C38",
+          "pin": "1"
+        },
+        {
+          "reference": "C57",
+          "pin": "2"
+        },
+        {
+          "reference": "C58",
+          "pin": "2"
+        },
+        {
+          "reference": "R62",
+          "pin": "2"
+        },
+        {
+          "reference": "SB6",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "32"
+        }
       ]
     },
     {
       "netId": 14,
       "netLabel": "VIN",
       "net": [
-        { "reference": "C42", "pin": "2" },
-        { "reference": "CN6", "pin": "8" },
-        { "reference": "CN7", "pin": "24" },
-        { "reference": "JP4", "pin": "3" },
-        { "reference": "U16", "pin": "3" }
+        {
+          "reference": "C42",
+          "pin": "2"
+        },
+        {
+          "reference": "CN6",
+          "pin": "8"
+        },
+        {
+          "reference": "CN7",
+          "pin": "24"
+        },
+        {
+          "reference": "JP4",
+          "pin": "3"
+        },
+        {
+          "reference": "U16",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 15,
       "netLabel": "VDD_MCU",
       "net": [
-        { "reference": "C43", "pin": "2" },
-        { "reference": "C44", "pin": "2" },
-        { "reference": "C45", "pin": "2" },
-        { "reference": "C46", "pin": "2" },
-        { "reference": "C47", "pin": "2" },
-        { "reference": "C49", "pin": "2" },
-        { "reference": "C50", "pin": "2" },
-        { "reference": "C51", "pin": "2" },
-        { "reference": "C52", "pin": "2" },
-        { "reference": "C53", "pin": "2" },
-        { "reference": "C54", "pin": "2" },
-        { "reference": "C55", "pin": "2" },
-        { "reference": "JP5", "pin": "2" },
-        { "reference": "R62", "pin": "1" },
-        { "reference": "R115", "pin": "2" },
-        { "reference": "U1", "pin": "17" },
-        { "reference": "U1", "pin": "39" },
-        { "reference": "U1", "pin": "52" },
-        { "reference": "U1", "pin": "62" },
-        { "reference": "U1", "pin": "72" },
-        { "reference": "U1", "pin": "84" },
-        { "reference": "U1", "pin": "95" },
-        { "reference": "U1", "pin": "108" },
-        { "reference": "U1", "pin": "121" },
-        { "reference": "U1", "pin": "131" },
-        { "reference": "U1", "pin": "144" }
+        {
+          "reference": "C43",
+          "pin": "2"
+        },
+        {
+          "reference": "C44",
+          "pin": "2"
+        },
+        {
+          "reference": "C45",
+          "pin": "2"
+        },
+        {
+          "reference": "C46",
+          "pin": "2"
+        },
+        {
+          "reference": "C47",
+          "pin": "2"
+        },
+        {
+          "reference": "C49",
+          "pin": "2"
+        },
+        {
+          "reference": "C50",
+          "pin": "2"
+        },
+        {
+          "reference": "C51",
+          "pin": "2"
+        },
+        {
+          "reference": "C52",
+          "pin": "2"
+        },
+        {
+          "reference": "C53",
+          "pin": "2"
+        },
+        {
+          "reference": "C54",
+          "pin": "2"
+        },
+        {
+          "reference": "C55",
+          "pin": "2"
+        },
+        {
+          "reference": "JP5",
+          "pin": "2"
+        },
+        {
+          "reference": "R62",
+          "pin": "1"
+        },
+        {
+          "reference": "R115",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "17"
+        },
+        {
+          "reference": "U1",
+          "pin": "39"
+        },
+        {
+          "reference": "U1",
+          "pin": "52"
+        },
+        {
+          "reference": "U1",
+          "pin": "62"
+        },
+        {
+          "reference": "U1",
+          "pin": "72"
+        },
+        {
+          "reference": "U1",
+          "pin": "84"
+        },
+        {
+          "reference": "U1",
+          "pin": "95"
+        },
+        {
+          "reference": "U1",
+          "pin": "108"
+        },
+        {
+          "reference": "U1",
+          "pin": "121"
+        },
+        {
+          "reference": "U1",
+          "pin": "131"
+        },
+        {
+          "reference": "U1",
+          "pin": "144"
+        }
       ]
     },
     {
       "netId": 16,
       "netLabel": "VBUSC",
       "net": [
-        { "reference": "C80", "pin": "1" },
-        { "reference": "CN13", "pin": "A4" },
-        { "reference": "CN13", "pin": "A9" },
-        { "reference": "CN13", "pin": "B4" },
-        { "reference": "CN13", "pin": "B9" },
-        { "reference": "SB52", "pin": "2" },
-        { "reference": "U20", "pin": "7" },
-        { "reference": "U20", "pin": "8" },
-        { "reference": "U25", "pin": "1" }
+        {
+          "reference": "C80",
+          "pin": "1"
+        },
+        {
+          "reference": "CN13",
+          "pin": "A4"
+        },
+        {
+          "reference": "CN13",
+          "pin": "A9"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B4"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B9"
+        },
+        {
+          "reference": "SB52",
+          "pin": "2"
+        },
+        {
+          "reference": "U20",
+          "pin": "7"
+        },
+        {
+          "reference": "U20",
+          "pin": "8"
+        },
+        {
+          "reference": "U25",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 17,
       "netLabel": "VBUS_STLK",
       "net": [
-        { "reference": "C11", "pin": "1" },
-        { "reference": "C19", "pin": "2" },
-        { "reference": "C24", "pin": "2" },
-        { "reference": "CN1", "pin": "A4" },
-        { "reference": "CN1", "pin": "A9" },
-        { "reference": "CN1", "pin": "B4" },
-        { "reference": "CN1", "pin": "B9" },
-        { "reference": "D1", "pin": "1" },
-        { "reference": "U4", "pin": "1" },
-        { "reference": "U7", "pin": "3" },
-        { "reference": "U7", "pin": "4" },
-        { "reference": "U8", "pin": "5" }
+        {
+          "reference": "C11",
+          "pin": "1"
+        },
+        {
+          "reference": "C19",
+          "pin": "2"
+        },
+        {
+          "reference": "C24",
+          "pin": "2"
+        },
+        {
+          "reference": "CN1",
+          "pin": "A4"
+        },
+        {
+          "reference": "CN1",
+          "pin": "A9"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B4"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B9"
+        },
+        {
+          "reference": "D1",
+          "pin": "1"
+        },
+        {
+          "reference": "U4",
+          "pin": "1"
+        },
+        {
+          "reference": "U7",
+          "pin": "3"
+        },
+        {
+          "reference": "U7",
+          "pin": "4"
+        },
+        {
+          "reference": "U8",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 18,
       "netLabel": "VBUS_DETECT",
       "net": [
-        { "reference": "C81", "pin": "2" },
-        { "reference": "R101", "pin": "1" },
-        { "reference": "R102", "pin": "2" },
-        { "reference": "SB29", "pin": "1" }
+        {
+          "reference": "C81",
+          "pin": "2"
+        },
+        {
+          "reference": "R101",
+          "pin": "1"
+        },
+        {
+          "reference": "R102",
+          "pin": "2"
+        },
+        {
+          "reference": "SB29",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 19,
       "netLabel": "VBAT_LIN",
       "net": [
-        { "reference": "C86", "pin": "2" },
-        { "reference": "C88", "pin": "2" },
-        { "reference": "CN21", "pin": "2" },
-        { "reference": "D3", "pin": "1" },
-        { "reference": "JP4", "pin": "2" },
-        { "reference": "U28", "pin": "7" }
+        {
+          "reference": "C86",
+          "pin": "2"
+        },
+        {
+          "reference": "C88",
+          "pin": "2"
+        },
+        {
+          "reference": "CN21",
+          "pin": "2"
+        },
+        {
+          "reference": "D3",
+          "pin": "1"
+        },
+        {
+          "reference": "JP4",
+          "pin": "2"
+        },
+        {
+          "reference": "U28",
+          "pin": "7"
+        }
       ]
     },
     {
       "netId": 20,
       "netLabel": "USB_P",
       "net": [
-        { "reference": "CN10", "pin": "12" },
-        { "reference": "SB9", "pin": "2" }
+        {
+          "reference": "CN10",
+          "pin": "12"
+        },
+        {
+          "reference": "SB9",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 21,
       "netLabel": "USB_N",
       "net": [
-        { "reference": "CN10", "pin": "14" },
-        { "reference": "SB10", "pin": "2" }
+        {
+          "reference": "CN10",
+          "pin": "14"
+        },
+        {
+          "reference": "SB10",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 22,
       "netLabel": "USB_FS_P",
       "net": [
-        { "reference": "SB9", "pin": "1" },
-        { "reference": "U1", "pin": "104" },
-        { "reference": "U22", "pin": "6" }
+        {
+          "reference": "SB9",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "104"
+        },
+        {
+          "reference": "U22",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 23,
       "netLabel": "USB_FS_N",
       "net": [
-        { "reference": "SB10", "pin": "1" },
-        { "reference": "U1", "pin": "103" },
-        { "reference": "U22", "pin": "5" }
+        {
+          "reference": "SB10",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "103"
+        },
+        {
+          "reference": "U22",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 24,
       "netLabel": "USB_FS_CN_P",
       "net": [
-        { "reference": "CN13", "pin": "A6" },
-        { "reference": "CN13", "pin": "B6" },
-        { "reference": "U22", "pin": "1" }
+        {
+          "reference": "CN13",
+          "pin": "A6"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B6"
+        },
+        {
+          "reference": "U22",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 25,
       "netLabel": "USB_FS_CN_N",
       "net": [
-        { "reference": "CN13", "pin": "A7" },
-        { "reference": "CN13", "pin": "B7" },
-        { "reference": "U22", "pin": "2" }
+        {
+          "reference": "CN13",
+          "pin": "A7"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B7"
+        },
+        {
+          "reference": "U22",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 26,
       "netLabel": "TX_P",
       "net": [
-        { "reference": "CN14", "pin": "1" },
-        { "reference": "U19", "pin": "16" }
+        {
+          "reference": "CN14",
+          "pin": "1"
+        },
+        {
+          "reference": "U19",
+          "pin": "16"
+        }
       ]
     },
     {
       "netId": 27,
       "netLabel": "TX_N",
       "net": [
-        { "reference": "CN14", "pin": "2" },
-        { "reference": "U19", "pin": "14" }
+        {
+          "reference": "CN14",
+          "pin": "2"
+        },
+        {
+          "reference": "U19",
+          "pin": "14"
+        }
       ]
     },
     {
       "netId": 28,
       "netLabel": "TRACED3",
       "net": [
-        { "reference": "CN4", "pin": "20" },
-        { "reference": "R43", "pin": "1" },
-        { "reference": "U38", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "20"
+        },
+        {
+          "reference": "R43",
+          "pin": "1"
+        },
+        {
+          "reference": "U38",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 29,
       "netLabel": "TRACED2",
       "net": [
-        { "reference": "CN4", "pin": "18" },
-        { "reference": "R42", "pin": "1" },
-        { "reference": "U37", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "18"
+        },
+        {
+          "reference": "R42",
+          "pin": "1"
+        },
+        {
+          "reference": "U37",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 30,
       "netLabel": "TRACED1",
       "net": [
-        { "reference": "CN4", "pin": "16" },
-        { "reference": "R39", "pin": "1" },
-        { "reference": "U36", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "16"
+        },
+        {
+          "reference": "R39",
+          "pin": "1"
+        },
+        {
+          "reference": "U36",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 31,
       "netLabel": "TRACED0",
       "net": [
-        { "reference": "CN4", "pin": "14" },
-        { "reference": "R30", "pin": "1" },
-        { "reference": "U35", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "14"
+        },
+        {
+          "reference": "R30",
+          "pin": "1"
+        },
+        {
+          "reference": "U35",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 32,
       "netLabel": "TRACECLK",
       "net": [
-        { "reference": "CN4", "pin": "12" },
-        { "reference": "R27", "pin": "1" },
-        { "reference": "U34", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "12"
+        },
+        {
+          "reference": "R27",
+          "pin": "1"
+        },
+        {
+          "reference": "U34",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 33,
       "netLabel": "TRACE.D3",
       "net": [
-        { "reference": "R43", "pin": "2" },
-        { "reference": "SB21", "pin": "2" },
-        { "reference": "U1", "pin": "5" }
+        {
+          "reference": "R43",
+          "pin": "2"
+        },
+        {
+          "reference": "SB21",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 34,
       "netLabel": "TRACE.D2",
       "net": [
-        { "reference": "R42", "pin": "2" },
-        { "reference": "SB20", "pin": "2" },
-        { "reference": "U1", "pin": "4" }
+        {
+          "reference": "R42",
+          "pin": "2"
+        },
+        {
+          "reference": "SB20",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 35,
       "netLabel": "TRACE.D1",
       "net": [
-        { "reference": "R39", "pin": "2" },
-        { "reference": "SB19", "pin": "2" },
-        { "reference": "U1", "pin": "3" }
+        {
+          "reference": "R39",
+          "pin": "2"
+        },
+        {
+          "reference": "SB19",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 36,
       "netLabel": "TRACE.D0",
       "net": [
-        { "reference": "R30", "pin": "2" },
-        { "reference": "SB18", "pin": "2" },
-        { "reference": "U1", "pin": "2" }
+        {
+          "reference": "R30",
+          "pin": "2"
+        },
+        {
+          "reference": "SB18",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 37,
       "netLabel": "TRACE.CLK",
       "net": [
-        { "reference": "R27", "pin": "2" },
-        { "reference": "SB17", "pin": "1" },
-        { "reference": "U1", "pin": "1" }
+        {
+          "reference": "R27",
+          "pin": "2"
+        },
+        {
+          "reference": "SB17",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 38,
       "netLabel": "TD_P",
       "net": [
-        { "reference": "R84", "pin": "1" },
-        { "reference": "U42", "pin": "21" },
-        { "reference": "U18", "pin": "4" },
-        { "reference": "U19", "pin": "1" }
+        {
+          "reference": "R84",
+          "pin": "1"
+        },
+        {
+          "reference": "U18",
+          "pin": "4"
+        },
+        {
+          "reference": "U19",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 39,
       "netLabel": "TD_N",
       "net": [
-        { "reference": "R83", "pin": "1" },
-        { "reference": "U42", "pin": "20" },
-        { "reference": "U18", "pin": "3" },
-        { "reference": "U19", "pin": "3" }
+        {
+          "reference": "R83",
+          "pin": "1"
+        },
+        {
+          "reference": "U18",
+          "pin": "3"
+        },
+        {
+          "reference": "U19",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 40,
       "netLabel": "T_VCC_AIN",
       "net": [
-        { "reference": "R31", "pin": "1" },
-        { "reference": "R32", "pin": "1" },
-        { "reference": "U2", "pin": "N3" }
+        {
+          "reference": "R31",
+          "pin": "1"
+        },
+        {
+          "reference": "R32",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "N3"
+        }
       ]
     },
     {
       "netId": 41,
       "netLabel": "T_VCC",
       "net": [
-        { "reference": "LNK1", "pin": "2" },
-        { "reference": "R32", "pin": "2" }
+        {
+          "reference": "LNK1",
+          "pin": "2"
+        },
+        {
+          "reference": "R32",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 42,
       "netLabel": "T_SWO",
       "net": [
-        { "reference": "R24", "pin": "1" },
-        { "reference": "U2", "pin": "A6" },
-        { "reference": "U2", "pin": "D12" }
+        {
+          "reference": "R24",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "A6"
+        },
+        {
+          "reference": "U2",
+          "pin": "D12"
+        }
       ]
     },
     {
       "netId": 43,
       "netLabel": "T_SWDIO",
       "net": [
-        { "reference": "R41", "pin": "1" },
-        { "reference": "U2", "pin": "L2" },
-        { "reference": "U2", "pin": "N12" }
+        {
+          "reference": "R41",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "L2"
+        },
+        {
+          "reference": "U2",
+          "pin": "N12"
+        }
       ]
     },
     {
       "netId": 44,
       "netLabel": "T_SWCLK",
       "net": [
-        { "reference": "R15", "pin": "1" },
-        { "reference": "U2", "pin": "A10" },
-        { "reference": "U2", "pin": "M6" },
-        { "reference": "U2", "pin": "M11" }
+        {
+          "reference": "R15",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "A10"
+        },
+        {
+          "reference": "U2",
+          "pin": "M6"
+        },
+        {
+          "reference": "U2",
+          "pin": "M11"
+        }
       ]
     },
     {
       "netId": 45,
       "netLabel": "T_PWR_SEL2",
       "net": [
-        { "reference": "R37", "pin": "2" },
-        { "reference": "U2", "pin": "C11" }
+        {
+          "reference": "R37",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "C11"
+        }
       ]
     },
     {
       "netId": 46,
       "netLabel": "T_PWR_SEL1",
       "net": [
-        { "reference": "R36", "pin": "2" },
-        { "reference": "U2", "pin": "D10" }
+        {
+          "reference": "R36",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "D10"
+        }
       ]
     },
     {
       "netId": 47,
       "netLabel": "T_PWR_LED",
       "net": [
-        { "reference": "R9", "pin": "2" },
-        { "reference": "R10", "pin": "2" },
-        { "reference": "U2", "pin": "H15" }
+        {
+          "reference": "R9",
+          "pin": "2"
+        },
+        {
+          "reference": "R10",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "H15"
+        }
       ]
     },
     {
       "netId": 48,
       "netLabel": "T_PWR_INT",
       "net": [
-        { "reference": "C27", "pin": "1" },
-        { "reference": "R23", "pin": "2" },
-        { "reference": "R34", "pin": "2" },
-        { "reference": "R38", "pin": "2" },
-        { "reference": "U2", "pin": "J2" },
-        { "reference": "U8", "pin": "3" }
+        {
+          "reference": "C27",
+          "pin": "1"
+        },
+        {
+          "reference": "R23",
+          "pin": "2"
+        },
+        {
+          "reference": "R34",
+          "pin": "2"
+        },
+        {
+          "reference": "R38",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "J2"
+        },
+        {
+          "reference": "U8",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 49,
       "netLabel": "T_PWR_EXT",
       "net": [
-        { "reference": "R25", "pin": "1" },
-        { "reference": "R26", "pin": "1" },
-        { "reference": "U2", "pin": "R4" }
+        {
+          "reference": "R25",
+          "pin": "1"
+        },
+        {
+          "reference": "R26",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "R4"
+        }
       ]
     },
     {
       "netId": 50,
       "netLabel": "T_PWR_EN",
       "net": [
-        { "reference": "R21", "pin": "2" },
-        { "reference": "R22", "pin": "2" },
-        { "reference": "U2", "pin": "R5" },
-        { "reference": "U7", "pin": "2" },
-        { "reference": "U8", "pin": "4" }
+        {
+          "reference": "R21",
+          "pin": "2"
+        },
+        {
+          "reference": "R22",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "R5"
+        },
+        {
+          "reference": "U7",
+          "pin": "2"
+        },
+        {
+          "reference": "U8",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 51,
       "netLabel": "T_JTDI",
       "net": [
-        { "reference": "R40", "pin": "1" },
-        { "reference": "U2", "pin": "L3" }
+        {
+          "reference": "R40",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "L3"
+        }
       ]
     },
     {
       "netId": 52,
       "netLabel": "T1S.TX",
       "net": [
-        { "reference": "SB35", "pin": "1" },
-        { "reference": "TP2", "pin": "1" },
-        { "reference": "U21", "pin": "1" }
+        {
+          "reference": "SB35",
+          "pin": "1"
+        },
+        {
+          "reference": "TP2",
+          "pin": "1"
+        },
+        {
+          "reference": "U21",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 53,
       "netLabel": "T1S.RX",
       "net": [
-        { "reference": "SB37", "pin": "1" },
-        { "reference": "TP3", "pin": "1" },
-        { "reference": "U21", "pin": "4" }
+        {
+          "reference": "SB37",
+          "pin": "1"
+        },
+        {
+          "reference": "TP3",
+          "pin": "1"
+        },
+        {
+          "reference": "U21",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 54,
       "netLabel": "T1S.ED",
       "net": [
-        { "reference": "SB36", "pin": "1" },
-        { "reference": "TP4", "pin": "1" },
-        { "reference": "U21", "pin": "3" }
+        {
+          "reference": "SB36",
+          "pin": "1"
+        },
+        {
+          "reference": "TP4",
+          "pin": "1"
+        },
+        {
+          "reference": "U21",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 55,
       "netLabel": "T1_P",
       "net": [
-        { "reference": "C77", "pin": "2" },
-        { "reference": "CN18", "pin": "1" },
-        { "reference": "R99", "pin": "2" },
-        { "reference": "R116", "pin": "2" }
+        {
+          "reference": "C77",
+          "pin": "2"
+        },
+        {
+          "reference": "CN18",
+          "pin": "1"
+        },
+        {
+          "reference": "R99",
+          "pin": "2"
+        },
+        {
+          "reference": "R116",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 56,
       "netLabel": "T1_N",
       "net": [
-        { "reference": "C78", "pin": "2" },
-        { "reference": "CN18", "pin": "2" },
-        { "reference": "R100", "pin": "1" },
-        { "reference": "R117", "pin": "1" }
+        {
+          "reference": "C78",
+          "pin": "2"
+        },
+        {
+          "reference": "CN18",
+          "pin": "2"
+        },
+        {
+          "reference": "R100",
+          "pin": "1"
+        },
+        {
+          "reference": "R117",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 57,
       "netLabel": "STLK_VCP_TX",
       "net": [
-        { "reference": "R20", "pin": "1" },
-        { "reference": "U2", "pin": "A7" }
+        {
+          "reference": "R20",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "A7"
+        }
       ]
     },
     {
       "netId": 58,
       "netLabel": "STLK_VCP_RX",
       "net": [
-        { "reference": "R16", "pin": "1" },
-        { "reference": "U2", "pin": "C10" }
+        {
+          "reference": "R16",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "C10"
+        }
       ]
     },
     {
       "netId": 59,
       "netLabel": "STLK_USB_P",
       "net": [
-        { "reference": "U2", "pin": "R15" },
-        { "reference": "U3", "pin": "6" }
+        {
+          "reference": "U2",
+          "pin": "R15"
+        },
+        {
+          "reference": "U3",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 60,
       "netLabel": "STLK_USB_N",
       "net": [
-        { "reference": "U2", "pin": "R14" },
-        { "reference": "U3", "pin": "5" }
+        {
+          "reference": "U2",
+          "pin": "R14"
+        },
+        {
+          "reference": "U3",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 61,
       "netLabel": "STLK_USB_CN_P",
       "net": [
-        { "reference": "CN1", "pin": "A6" },
-        { "reference": "CN1", "pin": "B6" },
-        { "reference": "U3", "pin": "1" }
+        {
+          "reference": "CN1",
+          "pin": "A6"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B6"
+        },
+        {
+          "reference": "U3",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 62,
       "netLabel": "STLK_USB_CN_N",
       "net": [
-        { "reference": "CN1", "pin": "A7" },
-        { "reference": "CN1", "pin": "B7" },
-        { "reference": "U3", "pin": "2" }
+        {
+          "reference": "CN1",
+          "pin": "A7"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B7"
+        },
+        {
+          "reference": "U3",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 63,
       "netLabel": "STLK_UCPD_CC2_C",
       "net": [
-        { "reference": "C2", "pin": "1" },
-        { "reference": "R6", "pin": "1" },
-        { "reference": "U2", "pin": "N5" }
+        {
+          "reference": "C2",
+          "pin": "1"
+        },
+        {
+          "reference": "R6",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "N5"
+        }
       ]
     },
     {
       "netId": 64,
       "netLabel": "STLK_UCPD_CC1_C",
       "net": [
-        { "reference": "C10", "pin": "1" },
-        { "reference": "R13", "pin": "1" },
-        { "reference": "U2", "pin": "M5" }
+        {
+          "reference": "C10",
+          "pin": "1"
+        },
+        {
+          "reference": "R13",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "M5"
+        }
       ]
     },
     {
       "netId": 65,
       "netLabel": "STLK_SWDIO",
       "net": [
-        { "reference": "CN17", "pin": "4" },
-        { "reference": "U2", "pin": "A15" }
+        {
+          "reference": "CN17",
+          "pin": "4"
+        },
+        {
+          "reference": "U2",
+          "pin": "A15"
+        }
       ]
     },
     {
       "netId": 66,
       "netLabel": "STLK_SWCLK",
       "net": [
-        { "reference": "CN17", "pin": "2" },
-        { "reference": "U2", "pin": "A14" }
+        {
+          "reference": "CN17",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "A14"
+        }
       ]
     },
     {
       "netId": 67,
       "netLabel": "STLK_OSC_OUT",
       "net": [
-        { "reference": "C32", "pin": "1" },
-        { "reference": "U2", "pin": "H1" },
-        { "reference": "X1", "pin": "3" }
+        {
+          "reference": "C32",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "H1"
+        },
+        {
+          "reference": "X1",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 68,
       "netLabel": "STLK_OSC_IN",
       "net": [
-        { "reference": "C34", "pin": "2" },
-        { "reference": "U2", "pin": "G1" },
-        { "reference": "X1", "pin": "1" }
+        {
+          "reference": "C34",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "G1"
+        },
+        {
+          "reference": "X1",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 69,
       "netLabel": "STLK_NRST",
       "net": [
-        { "reference": "C1", "pin": "2" },
-        { "reference": "JP3", "pin": "1" },
-        { "reference": "U2", "pin": "J1" }
+        {
+          "reference": "C1",
+          "pin": "2"
+        },
+        {
+          "reference": "JP3",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "J1"
+        }
       ]
     },
     {
       "netId": 70,
       "netLabel": "STLK_LED",
       "net": [
-        { "reference": "R11", "pin": "1" },
-        { "reference": "R12", "pin": "2" },
-        { "reference": "U2", "pin": "D15" }
+        {
+          "reference": "R11",
+          "pin": "1"
+        },
+        {
+          "reference": "R12",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "D15"
+        }
       ]
     },
     {
       "netId": 71,
       "netLabel": "SHGND",
       "net": [
-        { "reference": "C76", "pin": "1" },
-        { "reference": "CN14", "pin": "SH1" },
-        { "reference": "CN14", "pin": "SH2" },
-        { "reference": "SB40", "pin": "1" },
-        { "reference": "SB41", "pin": "1" }
+        {
+          "reference": "C76",
+          "pin": "1"
+        },
+        {
+          "reference": "CN14",
+          "pin": "SH1"
+        },
+        {
+          "reference": "CN14",
+          "pin": "SH2"
+        },
+        {
+          "reference": "SB40",
+          "pin": "1"
+        },
+        {
+          "reference": "SB41",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 72,
       "netLabel": "RX_P",
       "net": [
-        { "reference": "CN14", "pin": "3" },
-        { "reference": "U19", "pin": "11" }
+        {
+          "reference": "CN14",
+          "pin": "3"
+        },
+        {
+          "reference": "U19",
+          "pin": "11"
+        }
       ]
     },
     {
       "netId": 73,
       "netLabel": "RX_N",
       "net": [
-        { "reference": "CN14", "pin": "6" },
-        { "reference": "U19", "pin": "9" }
+        {
+          "reference": "CN14",
+          "pin": "6"
+        },
+        {
+          "reference": "U19",
+          "pin": "9"
+        }
       ]
     },
     {
       "netId": 74,
       "netLabel": "RMII.TXD1",
       "net": [
-        { "reference": "R82", "pin": "1" },
-        { "reference": "SB33", "pin": "2" }
+        {
+          "reference": "R82",
+          "pin": "1"
+        },
+        {
+          "reference": "SB33",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 75,
       "netLabel": "RMII.TXD0",
       "net": [
-        { "reference": "R81", "pin": "1" },
-        { "reference": "SB32", "pin": "2" }
+        {
+          "reference": "R81",
+          "pin": "1"
+        },
+        {
+          "reference": "SB32",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 76,
       "netLabel": "RMII.TX_EN",
       "net": [
-        { "reference": "R79", "pin": "1" },
-        { "reference": "SB31", "pin": "2" }
+        {
+          "reference": "R79",
+          "pin": "1"
+        },
+        {
+          "reference": "SB31",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 77,
       "netLabel": "RMII.RXD1",
       "net": [
-        { "reference": "R74", "pin": "1" },
-        { "reference": "SB23", "pin": "2" }
+        {
+          "reference": "R74",
+          "pin": "1"
+        },
+        {
+          "reference": "SB23",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 78,
       "netLabel": "RMII.RXD0",
       "net": [
-        { "reference": "R73", "pin": "1" },
-        { "reference": "SB25", "pin": "2" }
+        {
+          "reference": "R73",
+          "pin": "1"
+        },
+        {
+          "reference": "SB25",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 79,
       "netLabel": "RMII.REF_CLK",
       "net": [
-        { "reference": "R76", "pin": "1" },
-        { "reference": "SB27", "pin": "2" }
+        {
+          "reference": "R76",
+          "pin": "1"
+        },
+        {
+          "reference": "SB27",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 80,
       "netLabel": "RMII.MDIO",
       "net": [
-        { "reference": "R68", "pin": "1" },
-        { "reference": "SB28", "pin": "1" },
-        { "reference": "U42", "pin": "12" }
+        {
+          "reference": "R68",
+          "pin": "1"
+        },
+        {
+          "reference": "SB28",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 81,
       "netLabel": "RMII.MDC",
       "net": [
-        { "reference": "SB24", "pin": "1" },
-        { "reference": "U42", "pin": "13" }
+        {
+          "reference": "SB24",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 82,
       "netLabel": "RMII.CRS_DV",
       "net": [
-        { "reference": "R70", "pin": "1" },
-        { "reference": "SB26", "pin": "2" }
+        {
+          "reference": "R70",
+          "pin": "1"
+        },
+        {
+          "reference": "SB26",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 83,
       "netLabel": "RD_P",
       "net": [
-        { "reference": "R86", "pin": "1" },
-        { "reference": "U42", "pin": "23" },
-        { "reference": "U18", "pin": "1" },
-        { "reference": "U19", "pin": "6" }
+        {
+          "reference": "R86",
+          "pin": "1"
+        },
+        {
+          "reference": "U18",
+          "pin": "1"
+        },
+        {
+          "reference": "U19",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 84,
       "netLabel": "RD_N",
       "net": [
-        { "reference": "R85", "pin": "1" },
-        { "reference": "U42", "pin": "22" },
-        { "reference": "U18", "pin": "6" },
-        { "reference": "U19", "pin": "8" }
+        {
+          "reference": "R85",
+          "pin": "1"
+        },
+        {
+          "reference": "U18",
+          "pin": "6"
+        },
+        {
+          "reference": "U19",
+          "pin": "8"
+        }
       ]
     },
     {
       "netId": 85,
       "netLabel": "PH15",
       "net": [
-        { "reference": "CN11", "pin": "16" },
-        { "reference": "U1", "pin": "6" }
+        {
+          "reference": "CN11",
+          "pin": "16"
+        },
+        {
+          "reference": "U1",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 86,
       "netLabel": "PH5",
       "net": [
-        { "reference": "CN7", "pin": "30" },
-        { "reference": "CN8", "pin": "2" },
-        { "reference": "U1", "pin": "33" }
+        {
+          "reference": "CN7",
+          "pin": "30"
+        },
+        {
+          "reference": "CN8",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "33"
+        }
       ]
     },
     {
       "netId": 87,
       "netLabel": "PH4",
       "net": [
-        { "reference": "CN7", "pin": "28" },
-        { "reference": "CN8", "pin": "1" },
-        { "reference": "U1", "pin": "30" }
+        {
+          "reference": "CN7",
+          "pin": "28"
+        },
+        {
+          "reference": "CN8",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "30"
+        }
       ]
     },
     {
       "netId": 88,
       "netLabel": "PH3",
       "net": [
-        { "reference": "CN11", "pin": "29" },
-        { "reference": "U1", "pin": "106" }
+        {
+          "reference": "CN11",
+          "pin": "29"
+        },
+        {
+          "reference": "U1",
+          "pin": "106"
+        }
       ]
     },
     {
       "netId": 89,
       "netLabel": "PH1-OSC_OUT",
       "net": [
-        { "reference": "R4", "pin": "1" },
-        { "reference": "SB4", "pin": "1" },
-        { "reference": "U1", "pin": "24" }
+        {
+          "reference": "R4",
+          "pin": "1"
+        },
+        {
+          "reference": "SB4",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "24"
+        }
       ]
     },
     {
       "netId": 90,
       "netLabel": "PH1",
       "net": [
-        { "reference": "CN7", "pin": "31" },
-        { "reference": "SB4", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "31"
+        },
+        {
+          "reference": "SB4",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 91,
       "netLabel": "PH0-OSC_IN",
       "net": [
-        { "reference": "R3", "pin": "1" },
-        { "reference": "SB3", "pin": "1" },
-        { "reference": "SB5", "pin": "1" },
-        { "reference": "U1", "pin": "23" }
+        {
+          "reference": "R3",
+          "pin": "1"
+        },
+        {
+          "reference": "SB3",
+          "pin": "1"
+        },
+        {
+          "reference": "SB5",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "23"
+        }
       ]
     },
     {
       "netId": 92,
       "netLabel": "PH0",
       "net": [
-        { "reference": "CN7", "pin": "29" },
-        { "reference": "SB3", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "29"
+        },
+        {
+          "reference": "SB3",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 93,
       "netLabel": "PG15",
       "net": [
-        { "reference": "CN11", "pin": "26" },
-        { "reference": "CN14", "pin": "12" },
-        { "reference": "SB39", "pin": "2" },
-        { "reference": "U1", "pin": "132" }
+        {
+          "reference": "CN11",
+          "pin": "26"
+        },
+        {
+          "reference": "CN14",
+          "pin": "12"
+        },
+        {
+          "reference": "SB39",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "132"
+        }
       ]
     },
     {
       "netId": 94,
       "netLabel": "PG14",
       "net": [
-        { "reference": "CN12", "pin": "23" },
-        { "reference": "SB38", "pin": "2" },
-        { "reference": "U1", "pin": "129" }
+        {
+          "reference": "CN12",
+          "pin": "23"
+        },
+        {
+          "reference": "SB38",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "129"
+        }
       ]
     },
     {
       "netId": 95,
       "netLabel": "PG13",
       "net": [
-        { "reference": "CN11", "pin": "30" },
-        { "reference": "SB32", "pin": "1" },
-        { "reference": "U1", "pin": "128" }
+        {
+          "reference": "CN11",
+          "pin": "30"
+        },
+        {
+          "reference": "SB32",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "128"
+        }
       ]
     },
     {
       "netId": 96,
       "netLabel": "PG12",
       "net": [
-        { "reference": "CN11", "pin": "28" },
-        { "reference": "SB33", "pin": "1" },
-        { "reference": "U1", "pin": "127" }
+        {
+          "reference": "CN11",
+          "pin": "28"
+        },
+        {
+          "reference": "SB33",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "127"
+        }
       ]
     },
     {
       "netId": 97,
       "netLabel": "PG11",
       "net": [
-        { "reference": "CN11", "pin": "32" },
-        { "reference": "SB31", "pin": "1" },
-        { "reference": "U1", "pin": "126" }
+        {
+          "reference": "CN11",
+          "pin": "32"
+        },
+        {
+          "reference": "SB31",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "126"
+        }
       ]
     },
     {
       "netId": 98,
       "netLabel": "PG10",
       "net": [
-        { "reference": "CN11", "pin": "27" },
-        { "reference": "CN19", "pin": "21" },
-        { "reference": "U1", "pin": "125" }
+        {
+          "reference": "CN11",
+          "pin": "27"
+        },
+        {
+          "reference": "CN19",
+          "pin": "21"
+        },
+        {
+          "reference": "U1",
+          "pin": "125"
+        }
       ]
     },
     {
       "netId": 99,
       "netLabel": "PG9",
       "net": [
-        { "reference": "CN11", "pin": "25" },
-        { "reference": "CN19", "pin": "18" },
-        { "reference": "U1", "pin": "124" }
+        {
+          "reference": "CN11",
+          "pin": "25"
+        },
+        {
+          "reference": "CN19",
+          "pin": "18"
+        },
+        {
+          "reference": "U1",
+          "pin": "124"
+        }
       ]
     },
     {
       "netId": 100,
       "netLabel": "PG8",
       "net": [
-        { "reference": "CN12", "pin": "28" },
-        { "reference": "CN19", "pin": "38" },
-        { "reference": "U1", "pin": "93" }
+        {
+          "reference": "CN12",
+          "pin": "28"
+        },
+        {
+          "reference": "CN19",
+          "pin": "38"
+        },
+        {
+          "reference": "U1",
+          "pin": "93"
+        }
       ]
     },
     {
       "netId": 101,
       "netLabel": "PG7",
       "net": [
-        { "reference": "CN12", "pin": "29" },
-        { "reference": "CN19", "pin": "42" },
-        { "reference": "U1", "pin": "92" }
+        {
+          "reference": "CN12",
+          "pin": "29"
+        },
+        {
+          "reference": "CN19",
+          "pin": "42"
+        },
+        {
+          "reference": "U1",
+          "pin": "92"
+        }
       ]
     },
     {
       "netId": 102,
       "netLabel": "PG6",
       "net": [
-        { "reference": "CN12", "pin": "32" },
-        { "reference": "CN19", "pin": "40" },
-        { "reference": "U1", "pin": "91" }
+        {
+          "reference": "CN12",
+          "pin": "32"
+        },
+        {
+          "reference": "CN19",
+          "pin": "40"
+        },
+        {
+          "reference": "U1",
+          "pin": "91"
+        }
       ]
     },
     {
       "netId": 103,
       "netLabel": "PG5",
       "net": [
-        { "reference": "CN12", "pin": "30" },
-        { "reference": "CN19", "pin": "62" },
-        { "reference": "U1", "pin": "90" }
+        {
+          "reference": "CN12",
+          "pin": "30"
+        },
+        {
+          "reference": "CN19",
+          "pin": "62"
+        },
+        {
+          "reference": "U1",
+          "pin": "90"
+        }
       ]
     },
     {
       "netId": 104,
       "netLabel": "PG4",
       "net": [
-        { "reference": "CN12", "pin": "31" },
-        { "reference": "U1", "pin": "89" }
+        {
+          "reference": "CN12",
+          "pin": "31"
+        },
+        {
+          "reference": "U1",
+          "pin": "89"
+        }
       ]
     },
     {
       "netId": 105,
       "netLabel": "PG3",
       "net": [
-        { "reference": "CN11", "pin": "3" },
-        { "reference": "U1", "pin": "88" }
+        {
+          "reference": "CN11",
+          "pin": "3"
+        },
+        {
+          "reference": "U1",
+          "pin": "88"
+        }
       ]
     },
     {
       "netId": 106,
       "netLabel": "PG2",
       "net": [
-        { "reference": "CN11", "pin": "1" },
-        { "reference": "LD3", "pin": "2" },
-        { "reference": "U1", "pin": "87" }
+        {
+          "reference": "CN11",
+          "pin": "1"
+        },
+        {
+          "reference": "LD3",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "87"
+        }
       ]
     },
     {
       "netId": 107,
       "netLabel": "PG1",
       "net": [
-        { "reference": "CN11", "pin": "20" },
-        { "reference": "LD2", "pin": "2" },
-        { "reference": "U1", "pin": "57" }
+        {
+          "reference": "CN11",
+          "pin": "20"
+        },
+        {
+          "reference": "LD2",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "57"
+        }
       ]
     },
     {
       "netId": 108,
       "netLabel": "PG0",
       "net": [
-        { "reference": "CN11", "pin": "21" },
-        { "reference": "SB7", "pin": "1" },
-        { "reference": "U1", "pin": "56" }
+        {
+          "reference": "CN11",
+          "pin": "21"
+        },
+        {
+          "reference": "SB7",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "56"
+        }
       ]
     },
     {
       "netId": 109,
       "netLabel": "PF15",
       "net": [
-        { "reference": "CN10", "pin": "6" },
-        { "reference": "U1", "pin": "55" }
+        {
+          "reference": "CN10",
+          "pin": "6"
+        },
+        {
+          "reference": "U1",
+          "pin": "55"
+        }
       ]
     },
     {
       "netId": 110,
       "netLabel": "PF14",
       "net": [
-        { "reference": "CN10", "pin": "10" },
-        { "reference": "U1", "pin": "54" }
+        {
+          "reference": "CN10",
+          "pin": "10"
+        },
+        {
+          "reference": "U1",
+          "pin": "54"
+        }
       ]
     },
     {
       "netId": 111,
       "netLabel": "PF13",
       "net": [
-        { "reference": "CN10", "pin": "22" },
-        { "reference": "U1", "pin": "53" }
+        {
+          "reference": "CN10",
+          "pin": "22"
+        },
+        {
+          "reference": "U1",
+          "pin": "53"
+        }
       ]
     },
     {
       "netId": 112,
       "netLabel": "PF12",
       "net": [
-        { "reference": "CN10", "pin": "24" },
-        { "reference": "U1", "pin": "50" }
+        {
+          "reference": "CN10",
+          "pin": "24"
+        },
+        {
+          "reference": "U1",
+          "pin": "50"
+        }
       ]
     },
     {
       "netId": 113,
       "netLabel": "PF11",
       "net": [
-        { "reference": "R59", "pin": "2" },
-        { "reference": "U1", "pin": "49" }
+        {
+          "reference": "R59",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "49"
+        }
       ]
     },
     {
       "netId": 114,
       "netLabel": "PF10",
       "net": [
-        { "reference": "R67", "pin": "2" },
-        { "reference": "U1", "pin": "22" }
+        {
+          "reference": "R67",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "22"
+        }
       ]
     },
     {
       "netId": 115,
       "netLabel": "PF9",
       "net": [
-        { "reference": "R66", "pin": "2" },
-        { "reference": "U1", "pin": "21" }
+        {
+          "reference": "R66",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "21"
+        }
       ]
     },
     {
       "netId": 116,
       "netLabel": "PF8",
       "net": [
-        { "reference": "R65", "pin": "2" },
-        { "reference": "U1", "pin": "20" }
+        {
+          "reference": "R65",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "20"
+        }
       ]
     },
     {
       "netId": 117,
       "netLabel": "PF7",
       "net": [
-        { "reference": "R64", "pin": "2" },
-        { "reference": "U1", "pin": "19" }
+        {
+          "reference": "R64",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "19"
+        }
       ]
     },
     {
       "netId": 118,
       "netLabel": "PF6",
       "net": [
-        { "reference": "R63", "pin": "2" },
-        { "reference": "U1", "pin": "18" }
+        {
+          "reference": "R63",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "18"
+        }
       ]
     },
     {
       "netId": 119,
       "netLabel": "PF5",
       "net": [
-        { "reference": "CN12", "pin": "20" },
-        { "reference": "SB51", "pin": "2" },
-        { "reference": "U1", "pin": "15" }
+        {
+          "reference": "CN12",
+          "pin": "20"
+        },
+        {
+          "reference": "SB51",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "15"
+        }
       ]
     },
     {
       "netId": 120,
       "netLabel": "PF4",
       "net": [
-        { "reference": "CN11", "pin": "19" },
-        { "reference": "U1", "pin": "14" }
+        {
+          "reference": "CN11",
+          "pin": "19"
+        },
+        {
+          "reference": "U1",
+          "pin": "14"
+        }
       ]
     },
     {
       "netId": 121,
       "netLabel": "PF3",
       "net": [
-        { "reference": "CN11", "pin": "18" },
-        { "reference": "U1", "pin": "13" }
+        {
+          "reference": "CN11",
+          "pin": "18"
+        },
+        {
+          "reference": "U1",
+          "pin": "13"
+        }
       ]
     },
     {
       "netId": 122,
       "netLabel": "PF2",
       "net": [
-        { "reference": "CN11", "pin": "14" },
-        { "reference": "U1", "pin": "12" }
+        {
+          "reference": "CN11",
+          "pin": "14"
+        },
+        {
+          "reference": "U1",
+          "pin": "12"
+        }
       ]
     },
     {
       "netId": 123,
       "netLabel": "PF1",
       "net": [
-        { "reference": "CN11", "pin": "13" },
-        { "reference": "CN19", "pin": "60" },
-        { "reference": "U1", "pin": "11" }
+        {
+          "reference": "CN11",
+          "pin": "13"
+        },
+        {
+          "reference": "CN19",
+          "pin": "60"
+        },
+        {
+          "reference": "U1",
+          "pin": "11"
+        }
       ]
     },
     {
       "netId": 124,
       "netLabel": "PF0",
       "net": [
-        { "reference": "CN11", "pin": "15" },
-        { "reference": "CN19", "pin": "58" },
-        { "reference": "U1", "pin": "10" }
+        {
+          "reference": "CN11",
+          "pin": "15"
+        },
+        {
+          "reference": "CN19",
+          "pin": "58"
+        },
+        {
+          "reference": "U1",
+          "pin": "10"
+        }
       ]
     },
     {
       "netId": 125,
       "netLabel": "PE15",
       "net": [
-        { "reference": "CN12", "pin": "15" },
-        { "reference": "SB29", "pin": "2" },
-        { "reference": "U1", "pin": "68" }
+        {
+          "reference": "CN12",
+          "pin": "15"
+        },
+        {
+          "reference": "SB29",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "68"
+        }
       ]
     },
     {
       "netId": 126,
       "netLabel": "PE14",
       "net": [
-        { "reference": "CN10", "pin": "34" },
-        { "reference": "U1", "pin": "67" }
+        {
+          "reference": "CN10",
+          "pin": "34"
+        },
+        {
+          "reference": "U1",
+          "pin": "67"
+        }
       ]
     },
     {
       "netId": 127,
       "netLabel": "PE13",
       "net": [
-        { "reference": "CN7", "pin": "36" },
-        { "reference": "CN8", "pin": "5" },
-        { "reference": "U1", "pin": "66" }
+        {
+          "reference": "CN7",
+          "pin": "36"
+        },
+        {
+          "reference": "CN8",
+          "pin": "5"
+        },
+        {
+          "reference": "U1",
+          "pin": "66"
+        }
       ]
     },
     {
       "netId": 128,
       "netLabel": "PE12",
       "net": [
-        { "reference": "CN12", "pin": "17" },
-        { "reference": "SB28", "pin": "2" },
-        { "reference": "U1", "pin": "65" }
+        {
+          "reference": "CN12",
+          "pin": "17"
+        },
+        {
+          "reference": "SB28",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "65"
+        }
       ]
     },
     {
       "netId": 129,
       "netLabel": "PE11",
       "net": [
-        { "reference": "R54", "pin": "1" },
-        { "reference": "U1", "pin": "64" }
+        {
+          "reference": "R54",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "64"
+        }
       ]
     },
     {
       "netId": 130,
       "netLabel": "PE10",
       "net": [
-        { "reference": "R55", "pin": "1" },
-        { "reference": "U1", "pin": "63" }
+        {
+          "reference": "R55",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "63"
+        }
       ]
     },
     {
       "netId": 131,
       "netLabel": "PE9",
       "net": [
-        { "reference": "R56", "pin": "1" },
-        { "reference": "U1", "pin": "60" }
+        {
+          "reference": "R56",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "60"
+        }
       ]
     },
     {
       "netId": 132,
       "netLabel": "PE8",
       "net": [
-        { "reference": "R57", "pin": "1" },
-        { "reference": "U1", "pin": "59" }
+        {
+          "reference": "R57",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "59"
+        }
       ]
     },
     {
       "netId": 133,
       "netLabel": "PE7",
       "net": [
-        { "reference": "R58", "pin": "1" },
-        { "reference": "U1", "pin": "58" }
+        {
+          "reference": "R58",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "58"
+        }
       ]
     },
     {
       "netId": 134,
       "netLabel": "PE6",
       "net": [
-        { "reference": "CN11", "pin": "12" },
-        { "reference": "SB21", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "12"
+        },
+        {
+          "reference": "SB21",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 135,
       "netLabel": "PE5",
       "net": [
-        { "reference": "CN11", "pin": "10" },
-        { "reference": "SB20", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "10"
+        },
+        {
+          "reference": "SB20",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 136,
       "netLabel": "PE4",
       "net": [
-        { "reference": "CN11", "pin": "9" },
-        { "reference": "SB19", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "9"
+        },
+        {
+          "reference": "SB19",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 137,
       "netLabel": "PE3",
       "net": [
-        { "reference": "CN11", "pin": "7" },
-        { "reference": "SB18", "pin": "1" }
+        {
+          "reference": "CN11",
+          "pin": "7"
+        },
+        {
+          "reference": "SB18",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 138,
       "netLabel": "PE2",
       "net": [
-        { "reference": "CN11", "pin": "5" },
-        { "reference": "SB17", "pin": "2" }
+        {
+          "reference": "CN11",
+          "pin": "5"
+        },
+        {
+          "reference": "SB17",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 139,
       "netLabel": "PE1",
       "net": [
-        { "reference": "CN11", "pin": "23" },
-        { "reference": "U1", "pin": "142" }
+        {
+          "reference": "CN11",
+          "pin": "23"
+        },
+        {
+          "reference": "U1",
+          "pin": "142"
+        }
       ]
     },
     {
       "netId": 140,
       "netLabel": "PE0",
       "net": [
-        { "reference": "R61", "pin": "1" },
-        { "reference": "U1", "pin": "141" }
+        {
+          "reference": "R61",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "141"
+        }
       ]
     },
     {
       "netId": 141,
       "netLabel": "PD15",
       "net": [
-        { "reference": "CN12", "pin": "18" },
-        { "reference": "U1", "pin": "86" }
+        {
+          "reference": "CN12",
+          "pin": "18"
+        },
+        {
+          "reference": "U1",
+          "pin": "86"
+        }
       ]
     },
     {
       "netId": 142,
       "netLabel": "PD14",
       "net": [
-        { "reference": "CN12", "pin": "14" },
-        { "reference": "U1", "pin": "85" }
+        {
+          "reference": "CN12",
+          "pin": "14"
+        },
+        {
+          "reference": "U1",
+          "pin": "85"
+        }
       ]
     },
     {
       "netId": 143,
       "netLabel": "PD13",
       "net": [
-        { "reference": "CN12", "pin": "12" },
-        { "reference": "U1", "pin": "82" }
+        {
+          "reference": "CN12",
+          "pin": "12"
+        },
+        {
+          "reference": "U1",
+          "pin": "82"
+        }
       ]
     },
     {
       "netId": 144,
       "netLabel": "PD12",
       "net": [
-        { "reference": "CN12", "pin": "11" },
-        { "reference": "U1", "pin": "81" }
+        {
+          "reference": "CN12",
+          "pin": "11"
+        },
+        {
+          "reference": "U1",
+          "pin": "81"
+        }
       ]
     },
     {
       "netId": 145,
       "netLabel": "PD11",
       "net": [
-        { "reference": "CN12", "pin": "13" },
-        { "reference": "U1", "pin": "80" }
+        {
+          "reference": "CN12",
+          "pin": "13"
+        },
+        {
+          "reference": "U1",
+          "pin": "80"
+        }
       ]
     },
     {
       "netId": 146,
       "netLabel": "PD10",
       "net": [
-        { "reference": "CN12", "pin": "27" },
-        { "reference": "SB36", "pin": "2" },
-        { "reference": "U1", "pin": "79" }
+        {
+          "reference": "CN12",
+          "pin": "27"
+        },
+        {
+          "reference": "SB36",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "79"
+        }
       ]
     },
     {
       "netId": 147,
       "netLabel": "PD9",
       "net": [
-        { "reference": "CN11", "pin": "31" },
-        { "reference": "SB35", "pin": "2" },
-        { "reference": "U1", "pin": "78" }
+        {
+          "reference": "CN11",
+          "pin": "31"
+        },
+        {
+          "reference": "SB35",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "78"
+        }
       ]
     },
     {
       "netId": 148,
       "netLabel": "PD8",
       "net": [
-        { "reference": "CN12", "pin": "19" },
-        { "reference": "SB37", "pin": "2" },
-        { "reference": "U1", "pin": "77" }
+        {
+          "reference": "CN12",
+          "pin": "19"
+        },
+        {
+          "reference": "SB37",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "77"
+        }
       ]
     },
     {
       "netId": 149,
       "netLabel": "PD7",
       "net": [
-        { "reference": "CN11", "pin": "24" },
-        { "reference": "U1", "pin": "123" }
+        {
+          "reference": "CN11",
+          "pin": "24"
+        },
+        {
+          "reference": "U1",
+          "pin": "123"
+        }
       ]
     },
     {
       "netId": 150,
       "netLabel": "PD6",
       "net": [
-        { "reference": "CN9", "pin": "1" },
-        { "reference": "CN10", "pin": "37" },
-        { "reference": "U1", "pin": "122" }
+        {
+          "reference": "CN9",
+          "pin": "1"
+        },
+        {
+          "reference": "CN10",
+          "pin": "37"
+        },
+        {
+          "reference": "U1",
+          "pin": "122"
+        }
       ]
     },
     {
       "netId": 151,
       "netLabel": "PD5",
       "net": [
-        { "reference": "CN9", "pin": "2" },
-        { "reference": "CN10", "pin": "35" },
-        { "reference": "U1", "pin": "119" }
+        {
+          "reference": "CN9",
+          "pin": "2"
+        },
+        {
+          "reference": "CN10",
+          "pin": "35"
+        },
+        {
+          "reference": "U1",
+          "pin": "119"
+        }
       ]
     },
     {
       "netId": 152,
       "netLabel": "PD4",
       "net": [
-        { "reference": "CN10", "pin": "36" },
-        { "reference": "U1", "pin": "118" }
+        {
+          "reference": "CN10",
+          "pin": "36"
+        },
+        {
+          "reference": "U1",
+          "pin": "118"
+        }
       ]
     },
     {
       "netId": 153,
       "netLabel": "PD3",
       "net": [
-        { "reference": "CN10", "pin": "38" },
-        { "reference": "U1", "pin": "117" }
+        {
+          "reference": "CN10",
+          "pin": "38"
+        },
+        {
+          "reference": "U1",
+          "pin": "117"
+        }
       ]
     },
     {
       "netId": 154,
       "netLabel": "PD2",
       "net": [
-        { "reference": "CN7", "pin": "4" },
-        { "reference": "U1", "pin": "116" }
+        {
+          "reference": "CN7",
+          "pin": "4"
+        },
+        {
+          "reference": "U1",
+          "pin": "116"
+        }
       ]
     },
     {
       "netId": 155,
       "netLabel": "PD1",
       "net": [
-        { "reference": "CN11", "pin": "17" },
-        { "reference": "SB26", "pin": "1" },
-        { "reference": "U1", "pin": "115" }
+        {
+          "reference": "CN11",
+          "pin": "17"
+        },
+        {
+          "reference": "SB26",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "115"
+        }
       ]
     },
     {
       "netId": 156,
       "netLabel": "PD0",
       "net": [
-        { "reference": "CN7", "pin": "21" },
-        { "reference": "SB50", "pin": "1" },
-        { "reference": "U1", "pin": "114" }
+        {
+          "reference": "CN7",
+          "pin": "21"
+        },
+        {
+          "reference": "SB50",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "114"
+        }
       ]
     },
     {
       "netId": 157,
       "netLabel": "PC15-OSC32_OUT",
       "net": [
-        { "reference": "R2", "pin": "2" },
-        { "reference": "SB2", "pin": "1" },
-        { "reference": "U1", "pin": "9" }
+        {
+          "reference": "R2",
+          "pin": "2"
+        },
+        {
+          "reference": "SB2",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "9"
+        }
       ]
     },
     {
       "netId": 158,
       "netLabel": "PC15",
       "net": [
-        { "reference": "CN7", "pin": "27" },
-        { "reference": "SB2", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "27"
+        },
+        {
+          "reference": "SB2",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 159,
       "netLabel": "PC14-OSC32_IN",
       "net": [
-        { "reference": "R1", "pin": "2" },
-        { "reference": "SB1", "pin": "1" },
-        { "reference": "U1", "pin": "8" }
+        {
+          "reference": "R1",
+          "pin": "2"
+        },
+        {
+          "reference": "SB1",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "8"
+        }
       ]
     },
     {
       "netId": 160,
       "netLabel": "PC14",
       "net": [
-        { "reference": "CN7", "pin": "25" },
-        { "reference": "SB1", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "25"
+        },
+        {
+          "reference": "SB1",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 161,
       "netLabel": "PC13",
       "net": [
-        { "reference": "B1", "pin": "1" },
-        { "reference": "B1", "pin": "2" },
-        { "reference": "CN7", "pin": "23" },
-        { "reference": "R47", "pin": "2" },
-        { "reference": "U1", "pin": "7" },
-        { "reference": "U13", "pin": "1" }
+        {
+          "reference": "B1",
+          "pin": "1"
+        },
+        {
+          "reference": "B1",
+          "pin": "2"
+        },
+        {
+          "reference": "CN7",
+          "pin": "23"
+        },
+        {
+          "reference": "R47",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "7"
+        },
+        {
+          "reference": "U13",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 162,
       "netLabel": "PC12",
       "net": [
-        { "reference": "CN7", "pin": "3" },
-        { "reference": "U1", "pin": "113" }
+        {
+          "reference": "CN7",
+          "pin": "3"
+        },
+        {
+          "reference": "U1",
+          "pin": "113"
+        }
       ]
     },
     {
       "netId": 163,
       "netLabel": "PC11",
       "net": [
-        { "reference": "CN7", "pin": "2" },
-        { "reference": "U1", "pin": "112" }
+        {
+          "reference": "CN7",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "112"
+        }
       ]
     },
     {
       "netId": 164,
       "netLabel": "PC10",
       "net": [
-        { "reference": "CN7", "pin": "1" },
-        { "reference": "U1", "pin": "111" }
+        {
+          "reference": "CN7",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "111"
+        }
       ]
     },
     {
       "netId": 165,
       "netLabel": "PC9",
       "net": [
-        { "reference": "CN10", "pin": "1" },
-        { "reference": "SB49", "pin": "1" },
-        { "reference": "U1", "pin": "99" }
+        {
+          "reference": "CN10",
+          "pin": "1"
+        },
+        {
+          "reference": "SB49",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "99"
+        }
       ]
     },
     {
       "netId": 166,
       "netLabel": "PC8",
       "net": [
-        { "reference": "CN10", "pin": "2" },
-        { "reference": "SB48", "pin": "1" },
-        { "reference": "U1", "pin": "98" }
+        {
+          "reference": "CN10",
+          "pin": "2"
+        },
+        {
+          "reference": "SB48",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "98"
+        }
       ]
     },
     {
       "netId": 167,
       "netLabel": "PC7",
       "net": [
-        { "reference": "CN10", "pin": "4" },
-        { "reference": "U1", "pin": "97" }
+        {
+          "reference": "CN10",
+          "pin": "4"
+        },
+        {
+          "reference": "U1",
+          "pin": "97"
+        },
+        {
+          "reference": "U42",
+          "pin": "9"
+        }
       ]
     },
     {
       "netId": 168,
       "netLabel": "PC6",
       "net": [
-        { "reference": "CN5", "pin": "2" },
-        { "reference": "CN10", "pin": "19" },
-        { "reference": "U1", "pin": "96" }
+        {
+          "reference": "CN5",
+          "pin": "2"
+        },
+        {
+          "reference": "CN10",
+          "pin": "19"
+        },
+        {
+          "reference": "U1",
+          "pin": "96"
+        },
+        {
+          "reference": "U42",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 169,
       "netLabel": "PC5",
       "net": [
-        { "reference": "CN12", "pin": "24" },
-        { "reference": "SB23", "pin": "1" },
-        { "reference": "U1", "pin": "45" }
+        {
+          "reference": "CN12",
+          "pin": "24"
+        },
+        {
+          "reference": "SB23",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "45"
+        }
       ]
     },
     {
       "netId": 170,
       "netLabel": "PC4",
       "net": [
-        { "reference": "CN12", "pin": "22" },
-        { "reference": "SB25", "pin": "1" },
-        { "reference": "U1", "pin": "44" }
+        {
+          "reference": "CN12",
+          "pin": "22"
+        },
+        {
+          "reference": "SB25",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "44"
+        }
       ]
     },
     {
       "netId": 171,
       "netLabel": "PC3",
       "net": [
-        { "reference": "CN7", "pin": "37" },
-        { "reference": "U1", "pin": "29" }
+        {
+          "reference": "CN7",
+          "pin": "37"
+        },
+        {
+          "reference": "U1",
+          "pin": "29"
+        }
       ]
     },
     {
       "netId": 172,
       "netLabel": "PC2",
       "net": [
-        { "reference": "CN7", "pin": "35" },
-        { "reference": "U1", "pin": "28" }
+        {
+          "reference": "CN7",
+          "pin": "35"
+        },
+        {
+          "reference": "U1",
+          "pin": "28"
+        }
       ]
     },
     {
       "netId": 173,
       "netLabel": "PC1",
       "net": [
-        { "reference": "CN12", "pin": "21" },
-        { "reference": "SB24", "pin": "2" },
-        { "reference": "U1", "pin": "27" }
+        {
+          "reference": "CN12",
+          "pin": "21"
+        },
+        {
+          "reference": "SB24",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "27"
+        }
       ]
     },
     {
       "netId": 174,
       "netLabel": "PC0",
       "net": [
-        { "reference": "CN7", "pin": "38" },
-        { "reference": "CN8", "pin": "6" },
-        { "reference": "U1", "pin": "26" }
+        {
+          "reference": "CN7",
+          "pin": "38"
+        },
+        {
+          "reference": "CN8",
+          "pin": "6"
+        },
+        {
+          "reference": "U1",
+          "pin": "26"
+        }
       ]
     },
     {
       "netId": 175,
       "netLabel": "PB15",
       "net": [
-        { "reference": "CN10", "pin": "26" },
-        { "reference": "U1", "pin": "76" }
+        {
+          "reference": "CN10",
+          "pin": "26"
+        },
+        {
+          "reference": "U1",
+          "pin": "76"
+        }
       ]
     },
     {
       "netId": 176,
       "netLabel": "PB14",
       "net": [
-        { "reference": "CN10", "pin": "28" },
-        { "reference": "U1", "pin": "75" }
+        {
+          "reference": "CN10",
+          "pin": "28"
+        },
+        {
+          "reference": "U1",
+          "pin": "75"
+        }
       ]
     },
     {
       "netId": 177,
       "netLabel": "PB13",
       "net": [
-        { "reference": "CN10", "pin": "30" },
-        { "reference": "U1", "pin": "74" }
+        {
+          "reference": "CN10",
+          "pin": "30"
+        },
+        {
+          "reference": "U1",
+          "pin": "74"
+        }
       ]
     },
     {
       "netId": 178,
       "netLabel": "PB12",
       "net": [
-        { "reference": "CN10", "pin": "16" },
-        { "reference": "U1", "pin": "73" }
+        {
+          "reference": "CN10",
+          "pin": "16"
+        },
+        {
+          "reference": "U1",
+          "pin": "73"
+        }
       ]
     },
     {
       "netId": 179,
       "netLabel": "PB10",
       "net": [
-        { "reference": "CN9", "pin": "7" },
-        { "reference": "CN10", "pin": "25" },
-        { "reference": "U1", "pin": "69" }
+        {
+          "reference": "CN9",
+          "pin": "7"
+        },
+        {
+          "reference": "CN10",
+          "pin": "25"
+        },
+        {
+          "reference": "U1",
+          "pin": "69"
+        }
       ]
     },
     {
       "netId": 180,
       "netLabel": "PB9",
       "net": [
-        { "reference": "CN7", "pin": "26" },
-        { "reference": "SB47", "pin": "1" },
-        { "reference": "U1", "pin": "140" }
+        {
+          "reference": "CN7",
+          "pin": "26"
+        },
+        {
+          "reference": "SB47",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "140"
+        },
+        {
+          "reference": "U42",
+          "pin": "14"
+        }
       ]
     },
     {
       "netId": 181,
       "netLabel": "PB8",
       "net": [
-        { "reference": "CN7", "pin": "10" },
-        { "reference": "SB46", "pin": "1" },
-        { "reference": "U1", "pin": "139" }
+        {
+          "reference": "CN7",
+          "pin": "10"
+        },
+        {
+          "reference": "SB46",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "139"
+        },
+        {
+          "reference": "U42",
+          "pin": "13"
+        }
       ]
     },
     {
       "netId": 182,
       "netLabel": "PB7",
       "net": [
-        { "reference": "CN5", "pin": "9" },
-        { "reference": "CN10", "pin": "5" },
-        { "reference": "U1", "pin": "137" }
+        {
+          "reference": "CN5",
+          "pin": "9"
+        },
+        {
+          "reference": "CN10",
+          "pin": "5"
+        },
+        {
+          "reference": "U1",
+          "pin": "137"
+        }
       ]
     },
     {
       "netId": 183,
       "netLabel": "PB6",
       "net": [
-        { "reference": "CN5", "pin": "10" },
-        { "reference": "CN10", "pin": "3" },
-        { "reference": "U1", "pin": "136" }
+        {
+          "reference": "CN5",
+          "pin": "10"
+        },
+        {
+          "reference": "CN10",
+          "pin": "3"
+        },
+        {
+          "reference": "U1",
+          "pin": "136"
+        }
       ]
     },
     {
       "netId": 184,
       "netLabel": "PB5",
       "net": [
-        { "reference": "CN5", "pin": "3" },
-        { "reference": "CN10", "pin": "17" },
-        { "reference": "U1", "pin": "135" }
+        {
+          "reference": "CN5",
+          "pin": "3"
+        },
+        {
+          "reference": "CN10",
+          "pin": "17"
+        },
+        {
+          "reference": "U1",
+          "pin": "135"
+        }
       ]
     },
     {
       "netId": 185,
       "netLabel": "PB4",
       "net": [
-        { "reference": "CN9", "pin": "6" },
-        { "reference": "CN10", "pin": "27" },
-        { "reference": "U1", "pin": "134" }
+        {
+          "reference": "CN9",
+          "pin": "6"
+        },
+        {
+          "reference": "CN10",
+          "pin": "27"
+        },
+        {
+          "reference": "U1",
+          "pin": "134"
+        }
       ]
     },
     {
       "netId": 186,
       "netLabel": "PB3",
       "net": [
-        { "reference": "CN9", "pin": "4" },
-        { "reference": "CN10", "pin": "31" },
-        { "reference": "SB16", "pin": "2" }
+        {
+          "reference": "CN9",
+          "pin": "4"
+        },
+        {
+          "reference": "CN10",
+          "pin": "31"
+        },
+        {
+          "reference": "SB16",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 187,
       "netLabel": "PB2",
       "net": [
-        { "reference": "R60", "pin": "1" },
-        { "reference": "U1", "pin": "48" }
+        {
+          "reference": "R60",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "48"
+        }
       ]
     },
     {
       "netId": 188,
       "netLabel": "PB1",
       "net": [
-        { "reference": "CN10", "pin": "18" },
-        { "reference": "U1", "pin": "47" }
+        {
+          "reference": "CN10",
+          "pin": "18"
+        },
+        {
+          "reference": "U1",
+          "pin": "47"
+        }
       ]
     },
     {
       "netId": 189,
       "netLabel": "PB0",
       "net": [
-        { "reference": "CN7", "pin": "34" },
-        { "reference": "CN8", "pin": "4" },
-        { "reference": "U1", "pin": "46" }
+        {
+          "reference": "CN7",
+          "pin": "34"
+        },
+        {
+          "reference": "CN8",
+          "pin": "4"
+        },
+        {
+          "reference": "U1",
+          "pin": "46"
+        }
       ]
     },
     {
       "netId": 190,
       "netLabel": "PA15",
       "net": [
-        { "reference": "CN7", "pin": "17" },
-        { "reference": "SB15", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "17"
+        },
+        {
+          "reference": "SB15",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 191,
       "netLabel": "PA14",
       "net": [
-        { "reference": "CN7", "pin": "15" },
-        { "reference": "SB14", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "15"
+        },
+        {
+          "reference": "SB14",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 192,
       "netLabel": "PA13",
       "net": [
-        { "reference": "CN7", "pin": "13" },
-        { "reference": "SB13", "pin": "2" }
+        {
+          "reference": "CN7",
+          "pin": "13"
+        },
+        {
+          "reference": "SB13",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 193,
       "netLabel": "PA10",
       "net": [
-        { "reference": "CN9", "pin": "3" },
-        { "reference": "CN10", "pin": "33" },
-        { "reference": "U1", "pin": "102" }
+        {
+          "reference": "CN9",
+          "pin": "3"
+        },
+        {
+          "reference": "CN10",
+          "pin": "33"
+        },
+        {
+          "reference": "U1",
+          "pin": "102"
+        }
       ]
     },
     {
       "netId": 194,
       "netLabel": "PA9",
       "net": [
-        { "reference": "CN5", "pin": "1" },
-        { "reference": "CN10", "pin": "21" },
-        { "reference": "U1", "pin": "101" }
+        {
+          "reference": "CN5",
+          "pin": "1"
+        },
+        {
+          "reference": "CN10",
+          "pin": "21"
+        },
+        {
+          "reference": "U1",
+          "pin": "101"
+        }
       ]
     },
     {
       "netId": 195,
       "netLabel": "PA8",
       "net": [
-        { "reference": "CN9", "pin": "8" },
-        { "reference": "CN10", "pin": "23" },
-        { "reference": "U1", "pin": "100" }
+        {
+          "reference": "CN9",
+          "pin": "8"
+        },
+        {
+          "reference": "CN10",
+          "pin": "23"
+        },
+        {
+          "reference": "U1",
+          "pin": "100"
+        }
       ]
     },
     {
       "netId": 196,
       "netLabel": "PA7",
       "net": [
-        { "reference": "CN5", "pin": "4" },
-        { "reference": "CN10", "pin": "15" },
-        { "reference": "CN19", "pin": "17" },
-        { "reference": "U1", "pin": "43" }
+        {
+          "reference": "CN5",
+          "pin": "4"
+        },
+        {
+          "reference": "CN10",
+          "pin": "15"
+        },
+        {
+          "reference": "CN19",
+          "pin": "17"
+        },
+        {
+          "reference": "U1",
+          "pin": "43"
+        }
       ]
     },
     {
       "netId": 197,
       "netLabel": "PA6",
       "net": [
-        { "reference": "CN5", "pin": "5" },
-        { "reference": "CN10", "pin": "13" },
-        { "reference": "CN19", "pin": "19" },
-        { "reference": "U1", "pin": "42" }
+        {
+          "reference": "CN5",
+          "pin": "5"
+        },
+        {
+          "reference": "CN10",
+          "pin": "13"
+        },
+        {
+          "reference": "CN19",
+          "pin": "19"
+        },
+        {
+          "reference": "U1",
+          "pin": "42"
+        }
       ]
     },
     {
       "netId": 198,
       "netLabel": "PA5",
       "net": [
-        { "reference": "CN5", "pin": "6" },
-        { "reference": "CN10", "pin": "11" },
-        { "reference": "CN19", "pin": "16" },
-        { "reference": "SB8", "pin": "1" },
-        { "reference": "U1", "pin": "41" }
+        {
+          "reference": "CN5",
+          "pin": "6"
+        },
+        {
+          "reference": "CN10",
+          "pin": "11"
+        },
+        {
+          "reference": "CN19",
+          "pin": "16"
+        },
+        {
+          "reference": "SB8",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "41"
+        }
       ]
     },
     {
       "netId": 199,
       "netLabel": "PA4",
       "net": [
-        { "reference": "CN7", "pin": "32" },
-        { "reference": "CN8", "pin": "3" },
-        { "reference": "U1", "pin": "40" }
+        {
+          "reference": "CN7",
+          "pin": "32"
+        },
+        {
+          "reference": "CN8",
+          "pin": "3"
+        },
+        {
+          "reference": "U1",
+          "pin": "40"
+        }
       ]
     },
     {
       "netId": 200,
       "netLabel": "PA3",
       "net": [
-        { "reference": "CN7", "pin": "11" },
-        { "reference": "SB12", "pin": "1" }
+        {
+          "reference": "CN7",
+          "pin": "11"
+        },
+        {
+          "reference": "SB12",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 201,
       "netLabel": "PA2",
       "net": [
-        { "reference": "CN7", "pin": "9" },
-        { "reference": "SB11", "pin": "1" }
+        {
+          "reference": "CN7",
+          "pin": "9"
+        },
+        {
+          "reference": "SB11",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 202,
       "netLabel": "PA1",
       "net": [
-        { "reference": "CN12", "pin": "26" },
-        { "reference": "SB27", "pin": "1" },
-        { "reference": "U1", "pin": "35" }
+        {
+          "reference": "CN12",
+          "pin": "26"
+        },
+        {
+          "reference": "SB27",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "35"
+        }
       ]
     },
     {
       "netId": 203,
       "netLabel": "PA0",
       "net": [
-        { "reference": "CN9", "pin": "5" },
-        { "reference": "CN10", "pin": "29" },
-        { "reference": "U1", "pin": "34" }
+        {
+          "reference": "CN9",
+          "pin": "5"
+        },
+        {
+          "reference": "CN10",
+          "pin": "29"
+        },
+        {
+          "reference": "U1",
+          "pin": "34"
+        }
       ]
     },
     {
       "netId": 204,
       "netLabel": "OSC_OUT",
       "net": [
-        { "reference": "C59", "pin": "1" },
-        { "reference": "R4", "pin": "2" },
-        { "reference": "X3", "pin": "3" }
+        {
+          "reference": "C59",
+          "pin": "1"
+        },
+        {
+          "reference": "R4",
+          "pin": "2"
+        },
+        {
+          "reference": "X3",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 205,
       "netLabel": "OSC_IN",
       "net": [
-        { "reference": "C62", "pin": "1" },
-        { "reference": "R3", "pin": "2" },
-        { "reference": "X3", "pin": "1" }
+        {
+          "reference": "C62",
+          "pin": "1"
+        },
+        {
+          "reference": "R3",
+          "pin": "2"
+        },
+        {
+          "reference": "X3",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 206,
       "netLabel": "OSC32_OUT",
       "net": [
-        { "reference": "C61", "pin": "2" },
-        { "reference": "R2", "pin": "1" },
-        { "reference": "X2", "pin": "1" }
+        {
+          "reference": "C61",
+          "pin": "2"
+        },
+        {
+          "reference": "R2",
+          "pin": "1"
+        },
+        {
+          "reference": "X2",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 207,
       "netLabel": "OSC32_IN",
       "net": [
-        { "reference": "C60", "pin": "2" },
-        { "reference": "R1", "pin": "1" },
-        { "reference": "X2", "pin": "2" }
+        {
+          "reference": "C60",
+          "pin": "2"
+        },
+        {
+          "reference": "R1",
+          "pin": "1"
+        },
+        {
+          "reference": "X2",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 208,
       "netLabel": "NRST",
       "net": [
-        { "reference": "B2", "pin": "3" },
-        { "reference": "B2", "pin": "4" },
-        { "reference": "C56", "pin": "2" },
-        { "reference": "CN4", "pin": "10" },
-        { "reference": "CN6", "pin": "3" },
-        { "reference": "CN7", "pin": "14" },
-        { "reference": "R28", "pin": "2" },
-        { "reference": "SB30", "pin": "1" },
-        { "reference": "SB44", "pin": "1" },
-        { "reference": "U1", "pin": "25" },
-        { "reference": "U6", "pin": "1" },
-        { "reference": "U14", "pin": "1" }
+        {
+          "reference": "B2",
+          "pin": "3"
+        },
+        {
+          "reference": "B2",
+          "pin": "4"
+        },
+        {
+          "reference": "C56",
+          "pin": "2"
+        },
+        {
+          "reference": "CN4",
+          "pin": "10"
+        },
+        {
+          "reference": "CN6",
+          "pin": "3"
+        },
+        {
+          "reference": "CN7",
+          "pin": "14"
+        },
+        {
+          "reference": "R28",
+          "pin": "2"
+        },
+        {
+          "reference": "SB30",
+          "pin": "1"
+        },
+        {
+          "reference": "SB44",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "25"
+        },
+        {
+          "reference": "U6",
+          "pin": "1"
+        },
+        {
+          "reference": "U14",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 209,
       "netLabel": "NetTP9_1",
       "net": [
-        { "reference": "TP9", "pin": "1" },
-        { "reference": "U20", "pin": "2" }
+        {
+          "reference": "TP9",
+          "pin": "1"
+        },
+        {
+          "reference": "U20",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 210,
       "netLabel": "NetSB30_2",
       "net": [
-        { "reference": "SB30", "pin": "2" },
-        { "reference": "U42", "pin": "15" }
+        {
+          "reference": "SB30",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 211,
       "netLabel": "NetR97_2",
       "net": [
-        { "reference": "R97", "pin": "2" },
-        { "reference": "SB38", "pin": "1" },
-        { "reference": "SB39", "pin": "1" },
-        { "reference": "U42", "pin": "2" }
+        {
+          "reference": "R97",
+          "pin": "2"
+        },
+        {
+          "reference": "SB38",
+          "pin": "1"
+        },
+        {
+          "reference": "SB39",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 212,
       "netLabel": "NetR93_2",
       "net": [
-        { "reference": "R93", "pin": "2" },
-        { "reference": "U19", "pin": "10" }
+        {
+          "reference": "R93",
+          "pin": "2"
+        },
+        {
+          "reference": "U19",
+          "pin": "10"
+        }
       ]
     },
     {
       "netId": 213,
       "netLabel": "NetR88_2",
       "net": [
-        { "reference": "R88", "pin": "2" },
-        { "reference": "U19", "pin": "15" }
+        {
+          "reference": "R88",
+          "pin": "2"
+        },
+        {
+          "reference": "U19",
+          "pin": "15"
+        }
       ]
     },
     {
       "netId": 214,
       "netLabel": "NetR87_1",
       "net": [
-        { "reference": "R87", "pin": "1" },
-        { "reference": "U20", "pin": "1" }
+        {
+          "reference": "R87",
+          "pin": "1"
+        },
+        {
+          "reference": "U20",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 215,
       "netLabel": "NetR82_2",
       "net": [
-        { "reference": "R82", "pin": "2" },
-        { "reference": "U42", "pin": "18" }
+        {
+          "reference": "R82",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 216,
       "netLabel": "NetR81_2",
       "net": [
-        { "reference": "R81", "pin": "2" },
-        { "reference": "U42", "pin": "17" }
+        {
+          "reference": "R81",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 217,
       "netLabel": "NetR80_1",
       "net": [
-        { "reference": "R80", "pin": "1" },
-        { "reference": "U42", "pin": "24" }
+        {
+          "reference": "R80",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 218,
       "netLabel": "NetR79_2",
       "net": [
-        { "reference": "R79", "pin": "2" },
-        { "reference": "U42", "pin": "16" }
+        {
+          "reference": "R79",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 219,
       "netLabel": "NetR78_2",
       "net": [
-        { "reference": "R78", "pin": "2" },
-        { "reference": "U42", "pin": "4" }
+        {
+          "reference": "R78",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 220,
       "netLabel": "NetR76_2",
       "net": [
-        { "reference": "R76", "pin": "2" },
-        { "reference": "R77", "pin": "1" },
-        { "reference": "U42", "pin": "14" }
+        {
+          "reference": "R76",
+          "pin": "2"
+        },
+        {
+          "reference": "R77",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 221,
       "netLabel": "NetR74_2",
       "net": [
-        { "reference": "R74", "pin": "2" },
-        { "reference": "R75", "pin": "1" },
-        { "reference": "U42", "pin": "7" }
+        {
+          "reference": "R74",
+          "pin": "2"
+        },
+        {
+          "reference": "R75",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 222,
       "netLabel": "NetR72_1",
       "net": [
-        { "reference": "R72", "pin": "1" },
-        { "reference": "R73", "pin": "2" },
-        { "reference": "U42", "pin": "8" }
+        {
+          "reference": "R72",
+          "pin": "1"
+        },
+        {
+          "reference": "R73",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 223,
       "netLabel": "NetR71_1",
       "net": [
-        { "reference": "R71", "pin": "1" },
-        { "reference": "U42", "pin": "10" }
+        {
+          "reference": "R71",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 224,
       "netLabel": "NetR69_1",
       "net": [
-        { "reference": "R69", "pin": "1" },
-        { "reference": "R70", "pin": "2" },
-        { "reference": "U42", "pin": "11" }
+        {
+          "reference": "R69",
+          "pin": "1"
+        },
+        {
+          "reference": "R70",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 225,
       "netLabel": "NetR53_2",
       "net": [
-        { "reference": "R53", "pin": "2" },
-        { "reference": "U1", "pin": "110" }
+        {
+          "reference": "R53",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "110"
+        }
       ]
     },
     {
       "netId": 226,
       "netLabel": "NetR51_2",
       "net": [
-        { "reference": "R51", "pin": "2" },
-        { "reference": "SB8", "pin": "2" }
+        {
+          "reference": "R51",
+          "pin": "2"
+        },
+        {
+          "reference": "SB8",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 227,
       "netLabel": "NetR35_1",
       "net": [
-        { "reference": "R35", "pin": "1" },
-        { "reference": "R36", "pin": "1" },
-        { "reference": "R37", "pin": "1" },
-        { "reference": "U7", "pin": "7" }
+        {
+          "reference": "R35",
+          "pin": "1"
+        },
+        {
+          "reference": "R36",
+          "pin": "1"
+        },
+        {
+          "reference": "R37",
+          "pin": "1"
+        },
+        {
+          "reference": "U7",
+          "pin": "7"
+        }
       ]
     },
     {
       "netId": 228,
       "netLabel": "NetR33_1",
       "net": [
-        { "reference": "R33", "pin": "1" },
-        { "reference": "U2", "pin": "D4" }
+        {
+          "reference": "R33",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "D4"
+        }
       ]
     },
     {
       "netId": 229,
       "netLabel": "NetR29_1",
       "net": [
-        { "reference": "R29", "pin": "1" },
-        { "reference": "U2", "pin": "C4" }
+        {
+          "reference": "R29",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "C4"
+        }
       ]
     },
     {
       "netId": 230,
       "netLabel": "NetR28_1",
       "net": [
-        { "reference": "R28", "pin": "1" },
-        { "reference": "U2", "pin": "P3" }
+        {
+          "reference": "R28",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "P3"
+        }
       ]
     },
     {
       "netId": 231,
       "netLabel": "NetR8_1",
       "net": [
-        { "reference": "R8", "pin": "1" },
-        { "reference": "U2", "pin": "J15" }
+        {
+          "reference": "R8",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "J15"
+        }
       ]
     },
     {
       "netId": 232,
       "netLabel": "NetR7_1",
       "net": [
-        { "reference": "R7", "pin": "1" },
-        { "reference": "U2", "pin": "F15" }
+        {
+          "reference": "R7",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "F15"
+        }
       ]
     },
     {
       "netId": 233,
       "netLabel": "NetQ4_1",
       "net": [
-        { "reference": "Q4", "pin": "1" },
-        { "reference": "R104", "pin": "2" },
-        { "reference": "R105", "pin": "1" }
+        {
+          "reference": "Q4",
+          "pin": "1"
+        },
+        {
+          "reference": "R104",
+          "pin": "2"
+        },
+        {
+          "reference": "R105",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 234,
       "netLabel": "NetQ3_3",
       "net": [
-        { "reference": "Q3", "pin": "3" },
-        { "reference": "R95", "pin": "2" },
-        { "reference": "R107", "pin": "1" }
+        {
+          "reference": "Q3",
+          "pin": "3"
+        },
+        {
+          "reference": "R95",
+          "pin": "2"
+        },
+        {
+          "reference": "R107",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 235,
       "netLabel": "NetQ2_3",
       "net": [
-        { "reference": "Q2", "pin": "3" },
-        { "reference": "R94", "pin": "2" },
-        { "reference": "R106", "pin": "1" }
+        {
+          "reference": "Q2",
+          "pin": "3"
+        },
+        {
+          "reference": "R94",
+          "pin": "2"
+        },
+        {
+          "reference": "R106",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 236,
       "netLabel": "NetQ1_1",
       "net": [
-        { "reference": "Q1", "pin": "1" },
-        { "reference": "R51", "pin": "1" },
-        { "reference": "R52", "pin": "2" }
+        {
+          "reference": "Q1",
+          "pin": "1"
+        },
+        {
+          "reference": "R51",
+          "pin": "1"
+        },
+        {
+          "reference": "R52",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 237,
       "netLabel": "NetLD7_1",
       "net": [
-        { "reference": "LD7", "pin": "1" },
-        { "reference": "R44", "pin": "1" }
+        {
+          "reference": "LD7",
+          "pin": "1"
+        },
+        {
+          "reference": "R44",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 238,
       "netLabel": "NetLD6_2",
       "net": [
-        { "reference": "LD6", "pin": "2" },
-        { "reference": "R9", "pin": "1" }
+        {
+          "reference": "LD6",
+          "pin": "2"
+        },
+        {
+          "reference": "R9",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 239,
       "netLabel": "NetLD6_1",
       "net": [
-        { "reference": "LD6", "pin": "1" },
-        { "reference": "R10", "pin": "1" }
+        {
+          "reference": "LD6",
+          "pin": "1"
+        },
+        {
+          "reference": "R10",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 240,
       "netLabel": "NetLD5_2",
       "net": [
-        { "reference": "LD5", "pin": "2" },
-        { "reference": "Q4", "pin": "3" }
+        {
+          "reference": "LD5",
+          "pin": "2"
+        },
+        {
+          "reference": "Q4",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 241,
       "netLabel": "NetLD5_1",
       "net": [
-        { "reference": "LD5", "pin": "1" },
-        { "reference": "R108", "pin": "1" }
+        {
+          "reference": "LD5",
+          "pin": "1"
+        },
+        {
+          "reference": "R108",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 242,
       "netLabel": "NetLD4_2",
       "net": [
-        { "reference": "LD4", "pin": "2" },
-        { "reference": "R11", "pin": "2" }
+        {
+          "reference": "LD4",
+          "pin": "2"
+        },
+        {
+          "reference": "R11",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 243,
       "netLabel": "NetLD4_1",
       "net": [
-        { "reference": "LD4", "pin": "1" },
-        { "reference": "R12", "pin": "1" }
+        {
+          "reference": "LD4",
+          "pin": "1"
+        },
+        {
+          "reference": "R12",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 244,
       "netLabel": "NetLD3_1",
       "net": [
-        { "reference": "LD3", "pin": "1" },
-        { "reference": "R19", "pin": "1" }
+        {
+          "reference": "LD3",
+          "pin": "1"
+        },
+        {
+          "reference": "R19",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 245,
       "netLabel": "NetLD2_1",
       "net": [
-        { "reference": "LD2", "pin": "1" },
-        { "reference": "R18", "pin": "1" }
+        {
+          "reference": "LD2",
+          "pin": "1"
+        },
+        {
+          "reference": "R18",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 246,
       "netLabel": "NetLD1_2",
       "net": [
-        { "reference": "LD1", "pin": "2" },
-        { "reference": "Q1", "pin": "3" },
-        { "reference": "SB7", "pin": "2" }
+        {
+          "reference": "LD1",
+          "pin": "2"
+        },
+        {
+          "reference": "Q1",
+          "pin": "3"
+        },
+        {
+          "reference": "SB7",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 247,
       "netLabel": "NetLD1_1",
       "net": [
-        { "reference": "LD1", "pin": "1" },
-        { "reference": "R17", "pin": "1" }
+        {
+          "reference": "LD1",
+          "pin": "1"
+        },
+        {
+          "reference": "R17",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 248,
       "netLabel": "NetJP8_1",
       "net": [
-        { "reference": "JP8", "pin": "1" },
-        { "reference": "R117", "pin": "2" }
+        {
+          "reference": "JP8",
+          "pin": "1"
+        },
+        {
+          "reference": "R117",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 249,
       "netLabel": "NetJP7_2",
       "net": [
-        { "reference": "JP7", "pin": "2" },
-        { "reference": "R116", "pin": "1" }
+        {
+          "reference": "JP7",
+          "pin": "2"
+        },
+        {
+          "reference": "R116",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 250,
       "netLabel": "NetJP2_1",
       "net": [
-        { "reference": "JP2", "pin": "1" },
-        { "reference": "R110", "pin": "2" }
+        {
+          "reference": "JP2",
+          "pin": "1"
+        },
+        {
+          "reference": "R110",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 251,
       "netLabel": "NetD3_2",
       "net": [
-        { "reference": "D3", "pin": "2" },
-        { "reference": "R111", "pin": "2" }
+        {
+          "reference": "D3",
+          "pin": "2"
+        },
+        {
+          "reference": "R111",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 252,
       "netLabel": "NetCN19_66",
       "net": [
-        { "reference": "CN19", "pin": "66" },
-        { "reference": "SB44", "pin": "2" }
+        {
+          "reference": "CN19",
+          "pin": "66"
+        },
+        {
+          "reference": "SB44",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 253,
       "netLabel": "NetCN19_54",
       "net": [
-        { "reference": "CN19", "pin": "54" },
-        { "reference": "SB43", "pin": "2" }
+        {
+          "reference": "CN19",
+          "pin": "54"
+        },
+        {
+          "reference": "SB43",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 254,
       "netLabel": "NetCN19_20",
       "net": [
-        { "reference": "CN19", "pin": "20" },
-        { "reference": "SB42", "pin": "2" },
-        { "reference": "SB45", "pin": "2" }
+        {
+          "reference": "CN19",
+          "pin": "20"
+        },
+        {
+          "reference": "SB42",
+          "pin": "2"
+        },
+        {
+          "reference": "SB45",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 255,
       "netLabel": "NetCN14_11",
       "net": [
-        { "reference": "CN14", "pin": "11" },
-        { "reference": "R103", "pin": "2" }
+        {
+          "reference": "CN14",
+          "pin": "11"
+        },
+        {
+          "reference": "R103",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 256,
       "netLabel": "NetCN14_10",
       "net": [
-        { "reference": "CN14", "pin": "10" },
-        { "reference": "U42", "pin": "3" }
+        {
+          "reference": "CN14",
+          "pin": "10"
+        }
       ]
     },
     {
       "netId": 257,
       "netLabel": "NetCN14_9",
       "net": [
-        { "reference": "CN14", "pin": "9" },
-        { "reference": "R96", "pin": "2" }
+        {
+          "reference": "CN14",
+          "pin": "9"
+        },
+        {
+          "reference": "R96",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 258,
       "netLabel": "NetCN14_7",
       "net": [
-        { "reference": "CN14", "pin": "7" },
-        { "reference": "CN14", "pin": "8" },
-        { "reference": "R92", "pin": "2" }
+        {
+          "reference": "CN14",
+          "pin": "7"
+        },
+        {
+          "reference": "CN14",
+          "pin": "8"
+        },
+        {
+          "reference": "R92",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 259,
       "netLabel": "NetCN14_4",
       "net": [
-        { "reference": "CN14", "pin": "4" },
-        { "reference": "CN14", "pin": "5" },
-        { "reference": "R91", "pin": "2" }
+        {
+          "reference": "CN14",
+          "pin": "4"
+        },
+        {
+          "reference": "CN14",
+          "pin": "5"
+        },
+        {
+          "reference": "R91",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 260,
       "netLabel": "NetCN13_B5",
       "net": [
-        { "reference": "CN13", "pin": "B5" },
-        { "reference": "R107", "pin": "2" },
-        { "reference": "U24", "pin": "1" }
+        {
+          "reference": "CN13",
+          "pin": "B5"
+        },
+        {
+          "reference": "R107",
+          "pin": "2"
+        },
+        {
+          "reference": "U24",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 261,
       "netLabel": "NetCN13_A5",
       "net": [
-        { "reference": "CN13", "pin": "A5" },
-        { "reference": "R106", "pin": "2" },
-        { "reference": "U23", "pin": "1" }
+        {
+          "reference": "CN13",
+          "pin": "A5"
+        },
+        {
+          "reference": "R106",
+          "pin": "2"
+        },
+        {
+          "reference": "U23",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 262,
       "netLabel": "NetCN6_1",
       "net": [
-        { "reference": "CN6", "pin": "1" },
-        { "reference": "R50", "pin": "1" }
+        {
+          "reference": "CN6",
+          "pin": "1"
+        },
+        {
+          "reference": "R50",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 263,
       "netLabel": "NetCN5_8",
       "net": [
-        { "reference": "CN5", "pin": "8" },
-        { "reference": "CN10", "pin": "7" },
-        { "reference": "SB6", "pin": "2" }
+        {
+          "reference": "CN5",
+          "pin": "8"
+        },
+        {
+          "reference": "CN10",
+          "pin": "7"
+        },
+        {
+          "reference": "SB6",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 264,
       "netLabel": "NetCN4_11",
       "net": [
-        { "reference": "CN4", "pin": "11" },
-        { "reference": "CN4", "pin": "13" },
-        { "reference": "R46", "pin": "2" }
+        {
+          "reference": "CN4",
+          "pin": "11"
+        },
+        {
+          "reference": "CN4",
+          "pin": "13"
+        },
+        {
+          "reference": "R46",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 265,
       "netLabel": "NetCN1_B5",
       "net": [
-        { "reference": "CN1", "pin": "B5" },
-        { "reference": "R5", "pin": "1" },
-        { "reference": "R6", "pin": "2" }
+        {
+          "reference": "CN1",
+          "pin": "B5"
+        },
+        {
+          "reference": "R5",
+          "pin": "1"
+        },
+        {
+          "reference": "R6",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 266,
       "netLabel": "NetCN1_A5",
       "net": [
-        { "reference": "CN1", "pin": "A5" },
-        { "reference": "R13", "pin": "2" },
-        { "reference": "R14", "pin": "1" }
+        {
+          "reference": "CN1",
+          "pin": "A5"
+        },
+        {
+          "reference": "R13",
+          "pin": "2"
+        },
+        {
+          "reference": "R14",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 267,
       "netLabel": "NetC87_1",
       "net": [
-        { "reference": "C87", "pin": "1" },
-        { "reference": "JP6", "pin": "3" }
+        {
+          "reference": "C87",
+          "pin": "1"
+        },
+        {
+          "reference": "JP6",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 268,
       "netLabel": "NetC85_1",
       "net": [
-        { "reference": "C85", "pin": "1" },
-        { "reference": "JP6", "pin": "1" },
-        { "reference": "R111", "pin": "1" }
+        {
+          "reference": "C85",
+          "pin": "1"
+        },
+        {
+          "reference": "JP6",
+          "pin": "1"
+        },
+        {
+          "reference": "R111",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 269,
       "netLabel": "NetC79_2",
       "net": [
-        { "reference": "C79", "pin": "2" },
-        { "reference": "JP7", "pin": "1" },
-        { "reference": "JP8", "pin": "2" },
-        { "reference": "R98", "pin": "2" },
-        { "reference": "R99", "pin": "1" },
-        { "reference": "R100", "pin": "2" },
-        { "reference": "TP5", "pin": "1" }
+        {
+          "reference": "C79",
+          "pin": "2"
+        },
+        {
+          "reference": "JP7",
+          "pin": "1"
+        },
+        {
+          "reference": "JP8",
+          "pin": "2"
+        },
+        {
+          "reference": "R98",
+          "pin": "2"
+        },
+        {
+          "reference": "R99",
+          "pin": "1"
+        },
+        {
+          "reference": "R100",
+          "pin": "2"
+        },
+        {
+          "reference": "TP5",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 270,
       "netLabel": "NetC76_2",
       "net": [
-        { "reference": "C76", "pin": "2" },
-        { "reference": "R88", "pin": "1" },
-        { "reference": "R91", "pin": "1" },
-        { "reference": "R92", "pin": "1" },
-        { "reference": "R93", "pin": "1" }
+        {
+          "reference": "C76",
+          "pin": "2"
+        },
+        {
+          "reference": "R88",
+          "pin": "1"
+        },
+        {
+          "reference": "R91",
+          "pin": "1"
+        },
+        {
+          "reference": "R92",
+          "pin": "1"
+        },
+        {
+          "reference": "R93",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 271,
       "netLabel": "NetC72_2",
       "net": [
-        { "reference": "C72", "pin": "2" },
-        { "reference": "U20", "pin": "3" }
+        {
+          "reference": "C72",
+          "pin": "2"
+        },
+        {
+          "reference": "U20",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 272,
       "netLabel": "NetC68_2",
       "net": [
-        { "reference": "C68", "pin": "2" },
-        { "reference": "R78", "pin": "1" },
-        { "reference": "X4", "pin": "1" }
+        {
+          "reference": "C68",
+          "pin": "2"
+        },
+        {
+          "reference": "R78",
+          "pin": "1"
+        },
+        {
+          "reference": "X4",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 273,
       "netLabel": "NetC67_2",
       "net": [
-        { "reference": "C67", "pin": "2" },
-        { "reference": "C69", "pin": "2" },
-        { "reference": "C70", "pin": "2" },
-        { "reference": "C71", "pin": "2" },
-        { "reference": "C74", "pin": "2" },
-        { "reference": "C75", "pin": "2" },
-        { "reference": "L1", "pin": "2" },
-        { "reference": "R83", "pin": "2" },
-        { "reference": "R84", "pin": "2" },
-        { "reference": "R85", "pin": "2" },
-        { "reference": "R86", "pin": "2" },
-        { "reference": "U42", "pin": "1" },
-        { "reference": "U42", "pin": "19" },
-        { "reference": "U18", "pin": "5" },
-        { "reference": "U19", "pin": "2" },
-        { "reference": "U19", "pin": "7" }
+        {
+          "reference": "C67",
+          "pin": "2"
+        },
+        {
+          "reference": "C69",
+          "pin": "2"
+        },
+        {
+          "reference": "C70",
+          "pin": "2"
+        },
+        {
+          "reference": "C71",
+          "pin": "2"
+        },
+        {
+          "reference": "C74",
+          "pin": "2"
+        },
+        {
+          "reference": "C75",
+          "pin": "2"
+        },
+        {
+          "reference": "L1",
+          "pin": "2"
+        },
+        {
+          "reference": "R83",
+          "pin": "2"
+        },
+        {
+          "reference": "R84",
+          "pin": "2"
+        },
+        {
+          "reference": "R85",
+          "pin": "2"
+        },
+        {
+          "reference": "R86",
+          "pin": "2"
+        },
+        {
+          "reference": "U18",
+          "pin": "5"
+        },
+        {
+          "reference": "U19",
+          "pin": "2"
+        },
+        {
+          "reference": "U19",
+          "pin": "7"
+        }
       ]
     },
     {
       "netId": 274,
       "netLabel": "NetC66_2",
       "net": [
-        { "reference": "C66", "pin": "2" },
-        { "reference": "U42", "pin": "5" },
-        { "reference": "X4", "pin": "3" }
+        {
+          "reference": "C66",
+          "pin": "2"
+        },
+        {
+          "reference": "X4",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 275,
       "netLabel": "NetC64_2",
       "net": [
-        { "reference": "C64", "pin": "2" },
-        { "reference": "C65", "pin": "2" },
-        { "reference": "U42", "pin": "6" }
+        {
+          "reference": "C64",
+          "pin": "2"
+        },
+        {
+          "reference": "C65",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 276,
       "netLabel": "NetC48_2",
       "net": [
-        { "reference": "C48", "pin": "2" },
-        { "reference": "U1", "pin": "70" }
+        {
+          "reference": "C48",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "70"
+        }
       ]
     },
     {
       "netId": 277,
       "netLabel": "NetC36_2",
       "net": [
-        { "reference": "C36", "pin": "2" },
-        { "reference": "C37", "pin": "2" },
-        { "reference": "SB53", "pin": "2" },
-        { "reference": "U15", "pin": "4" }
+        {
+          "reference": "C36",
+          "pin": "2"
+        },
+        {
+          "reference": "C37",
+          "pin": "2"
+        },
+        {
+          "reference": "SB53",
+          "pin": "2"
+        },
+        {
+          "reference": "U15",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 278,
       "netLabel": "NetC33_2",
       "net": [
-        { "reference": "C33", "pin": "2" },
-        { "reference": "D1", "pin": "2" },
-        { "reference": "D2", "pin": "2" },
-        { "reference": "U11", "pin": "3" },
-        { "reference": "U11", "pin": "5" }
+        {
+          "reference": "C33",
+          "pin": "2"
+        },
+        {
+          "reference": "D1",
+          "pin": "2"
+        },
+        {
+          "reference": "D2",
+          "pin": "2"
+        },
+        {
+          "reference": "U11",
+          "pin": "3"
+        },
+        {
+          "reference": "U11",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 279,
       "netLabel": "NetC18_2",
       "net": [
-        { "reference": "C18", "pin": "2" },
-        { "reference": "U7", "pin": "1" }
+        {
+          "reference": "C18",
+          "pin": "2"
+        },
+        {
+          "reference": "U7",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 280,
       "netLabel": "NetC12_2",
       "net": [
-        { "reference": "C12", "pin": "2" },
-        { "reference": "U2", "pin": "M10" }
+        {
+          "reference": "C12",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "M10"
+        }
       ]
     },
     {
       "netId": 281,
       "netLabel": "NetC7_2",
       "net": [
-        { "reference": "C7", "pin": "2" },
-        { "reference": "U2", "pin": "J14" }
+        {
+          "reference": "C7",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "J14"
+        }
       ]
     },
     {
       "netId": 282,
       "netLabel": "NetC4_2",
       "net": [
-        { "reference": "C4", "pin": "2" },
-        { "reference": "U2", "pin": "F13" }
+        {
+          "reference": "C4",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "F13"
+        }
       ]
     },
     {
       "netId": 283,
       "netLabel": "LINE_P",
       "net": [
-        { "reference": "L2", "pin": "4" },
-        { "reference": "U21", "pin": "7" }
+        {
+          "reference": "L2",
+          "pin": "4"
+        },
+        {
+          "reference": "U21",
+          "pin": "7"
+        }
       ]
     },
     {
       "netId": 284,
       "netLabel": "LINE_N",
       "net": [
-        { "reference": "L2", "pin": "1" },
-        { "reference": "U21", "pin": "6" }
+        {
+          "reference": "L2",
+          "pin": "1"
+        },
+        {
+          "reference": "U21",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 285,
       "netLabel": "LIN.TX",
       "net": [
-        { "reference": "SB48", "pin": "2" },
-        { "reference": "U28", "pin": "4" }
+        {
+          "reference": "SB48",
+          "pin": "2"
+        },
+        {
+          "reference": "U28",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 286,
       "netLabel": "LIN.SLPN",
       "net": [
-        { "reference": "SB51", "pin": "1" },
-        { "reference": "U28", "pin": "2" }
+        {
+          "reference": "SB51",
+          "pin": "1"
+        },
+        {
+          "reference": "U28",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 287,
       "netLabel": "LIN.RX",
       "net": [
-        { "reference": "R112", "pin": "1" },
-        { "reference": "SB49", "pin": "2" },
-        { "reference": "U28", "pin": "1" }
+        {
+          "reference": "R112",
+          "pin": "1"
+        },
+        {
+          "reference": "SB49",
+          "pin": "2"
+        },
+        {
+          "reference": "U28",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 288,
       "netLabel": "LIN",
       "net": [
-        { "reference": "CN21", "pin": "1" },
-        { "reference": "JP6", "pin": "2" },
-        { "reference": "U28", "pin": "6" },
-        { "reference": "U29", "pin": "3" }
+        {
+          "reference": "CN21",
+          "pin": "1"
+        },
+        {
+          "reference": "JP6",
+          "pin": "2"
+        },
+        {
+          "reference": "U28",
+          "pin": "6"
+        },
+        {
+          "reference": "U29",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 289,
       "netLabel": "L_P",
       "net": [
-        { "reference": "C77", "pin": "1" },
-        { "reference": "L2", "pin": "3" }
+        {
+          "reference": "C77",
+          "pin": "1"
+        },
+        {
+          "reference": "L2",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 290,
       "netLabel": "L_N",
       "net": [
-        { "reference": "C78", "pin": "1" },
-        { "reference": "L2", "pin": "2" }
+        {
+          "reference": "C78",
+          "pin": "1"
+        },
+        {
+          "reference": "L2",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 291,
       "netLabel": "GND",
       "net": [
-        { "reference": "B2", "pin": "1" },
-        { "reference": "B2", "pin": "2" },
-        { "reference": "B3", "pin": "5" },
-        { "reference": "C1", "pin": "1" },
-        { "reference": "C2", "pin": "2" },
-        { "reference": "C3", "pin": "1" },
-        { "reference": "C4", "pin": "1" },
-        { "reference": "C5", "pin": "2" },
-        { "reference": "C6", "pin": "2" },
-        { "reference": "C7", "pin": "1" },
-        { "reference": "C8", "pin": "2" },
-        { "reference": "C9", "pin": "2" },
-        { "reference": "C10", "pin": "2" },
-        { "reference": "C11", "pin": "2" },
-        { "reference": "C12", "pin": "1" },
-        { "reference": "C13", "pin": "2" },
-        { "reference": "C14", "pin": "2" },
-        { "reference": "C15", "pin": "2" },
-        { "reference": "C16", "pin": "2" },
-        { "reference": "C17", "pin": "2" },
-        { "reference": "C18", "pin": "1" },
-        { "reference": "C19", "pin": "1" },
-        { "reference": "C20", "pin": "2" },
-        { "reference": "C21", "pin": "1" },
-        { "reference": "C22", "pin": "1" },
-        { "reference": "C23", "pin": "2" },
-        { "reference": "C24", "pin": "1" },
-        { "reference": "C25", "pin": "2" },
-        { "reference": "C26", "pin": "2" },
-        { "reference": "C27", "pin": "2" },
-        { "reference": "C28", "pin": "2" },
-        { "reference": "C29", "pin": "2" },
-        { "reference": "C30", "pin": "2" },
-        { "reference": "C31", "pin": "2" },
-        { "reference": "C32", "pin": "2" },
-        { "reference": "C33", "pin": "1" },
-        { "reference": "C34", "pin": "1" },
-        { "reference": "C35", "pin": "1" },
-        { "reference": "C36", "pin": "1" },
-        { "reference": "C37", "pin": "1" },
-        { "reference": "C38", "pin": "2" },
-        { "reference": "C39", "pin": "1" },
-        { "reference": "C40", "pin": "1" },
-        { "reference": "C41", "pin": "1" },
-        { "reference": "C42", "pin": "1" },
-        { "reference": "C43", "pin": "1" },
-        { "reference": "C44", "pin": "1" },
-        { "reference": "C45", "pin": "1" },
-        { "reference": "C46", "pin": "1" },
-        { "reference": "C47", "pin": "1" },
-        { "reference": "C48", "pin": "1" },
-        { "reference": "C49", "pin": "1" },
-        { "reference": "C50", "pin": "1" },
-        { "reference": "C51", "pin": "1" },
-        { "reference": "C52", "pin": "1" },
-        { "reference": "C53", "pin": "1" },
-        { "reference": "C54", "pin": "1" },
-        { "reference": "C55", "pin": "1" },
-        { "reference": "C56", "pin": "1" },
-        { "reference": "C59", "pin": "2" },
-        { "reference": "C60", "pin": "1" },
-        { "reference": "C61", "pin": "1" },
-        { "reference": "C62", "pin": "2" },
-        { "reference": "C63", "pin": "1" },
-        { "reference": "C64", "pin": "1" },
-        { "reference": "C65", "pin": "1" },
-        { "reference": "C66", "pin": "1" },
-        { "reference": "C67", "pin": "1" },
-        { "reference": "C68", "pin": "1" },
-        { "reference": "C69", "pin": "1" },
-        { "reference": "C70", "pin": "1" },
-        { "reference": "C71", "pin": "1" },
-        { "reference": "C72", "pin": "1" },
-        { "reference": "C73", "pin": "1" },
-        { "reference": "C74", "pin": "1" },
-        { "reference": "C75", "pin": "1" },
-        { "reference": "C79", "pin": "1" },
-        { "reference": "C80", "pin": "2" },
-        { "reference": "C81", "pin": "1" },
-        { "reference": "C82", "pin": "1" },
-        { "reference": "C83", "pin": "2" },
-        { "reference": "C84", "pin": "2" },
-        { "reference": "C85", "pin": "2" },
-        { "reference": "C86", "pin": "1" },
-        { "reference": "C87", "pin": "2" },
-        { "reference": "C88", "pin": "1" },
-        { "reference": "CN1", "pin": "A1" },
-        { "reference": "CN1", "pin": "A12" },
-        { "reference": "CN1", "pin": "B1" },
-        { "reference": "CN1", "pin": "B12" },
-        { "reference": "CN1", "pin": "SH1" },
-        { "reference": "CN1", "pin": "SH2" },
-        { "reference": "CN1", "pin": "SH3" },
-        { "reference": "CN1", "pin": "SH4" },
-        { "reference": "CN2", "pin": "1" },
-        { "reference": "CN2", "pin": "2" },
-        { "reference": "CN3", "pin": "1" },
-        { "reference": "CN3", "pin": "2" },
-        { "reference": "CN4", "pin": "3" },
-        { "reference": "CN4", "pin": "5" },
-        { "reference": "CN4", "pin": "9" },
-        { "reference": "CN4", "pin": "15" },
-        { "reference": "CN4", "pin": "17" },
-        { "reference": "CN4", "pin": "19" },
-        { "reference": "CN5", "pin": "7" },
-        { "reference": "CN6", "pin": "6" },
-        { "reference": "CN6", "pin": "7" },
-        { "reference": "CN7", "pin": "8" },
-        { "reference": "CN7", "pin": "19" },
-        { "reference": "CN7", "pin": "20" },
-        { "reference": "CN7", "pin": "22" },
-        { "reference": "CN10", "pin": "9" },
-        { "reference": "CN10", "pin": "20" },
-        { "reference": "CN11", "pin": "11" },
-        { "reference": "CN11", "pin": "22" },
-        { "reference": "CN12", "pin": "1" },
-        { "reference": "CN12", "pin": "16" },
-        { "reference": "CN12", "pin": "25" },
-        { "reference": "CN13", "pin": "A1" },
-        { "reference": "CN13", "pin": "A12" },
-        { "reference": "CN13", "pin": "B1" },
-        { "reference": "CN13", "pin": "B12" },
-        { "reference": "CN13", "pin": "SH1" },
-        { "reference": "CN13", "pin": "SH2" },
-        { "reference": "CN13", "pin": "SH3" },
-        { "reference": "CN13", "pin": "SH4" },
-        { "reference": "CN15", "pin": "1" },
-        { "reference": "CN15", "pin": "2" },
-        { "reference": "CN16", "pin": "1" },
-        { "reference": "CN16", "pin": "2" },
-        { "reference": "CN17", "pin": "3" },
-        { "reference": "CN19", "pin": "1" },
-        { "reference": "CN19", "pin": "7" },
-        { "reference": "CN19", "pin": "23" },
-        { "reference": "CN19", "pin": "24" },
-        { "reference": "CN19", "pin": "29" },
-        { "reference": "CN19", "pin": "30" },
-        { "reference": "CN19", "pin": "33" },
-        { "reference": "CN19", "pin": "36" },
-        { "reference": "CN19", "pin": "39" },
-        { "reference": "CN19", "pin": "44" },
-        { "reference": "CN19", "pin": "45" },
-        { "reference": "CN19", "pin": "50" },
-        { "reference": "CN19", "pin": "51" },
-        { "reference": "CN19", "pin": "57" },
-        { "reference": "CN19", "pin": "63" },
-        { "reference": "CN19", "pin": "69" },
-        { "reference": "CN19", "pin": "70" },
-        { "reference": "CN19", "pin": "75" },
-        { "reference": "CN19", "pin": "S1" },
-        { "reference": "CN19", "pin": "S2" },
-        { "reference": "HW6", "pin": "1" },
-        { "reference": "JP3", "pin": "2" },
-        { "reference": "LD4", "pin": "3" },
-        { "reference": "LD6", "pin": "3" },
-        { "reference": "LD7", "pin": "2" },
-        { "reference": "Q1", "pin": "2" },
-        { "reference": "Q2", "pin": "2" },
-        { "reference": "Q3", "pin": "2" },
-        { "reference": "Q4", "pin": "2" },
-        { "reference": "R5", "pin": "2" },
-        { "reference": "R8", "pin": "2" },
-        { "reference": "R14", "pin": "2" },
-        { "reference": "R21", "pin": "1" },
-        { "reference": "R22", "pin": "1" },
-        { "reference": "R26", "pin": "2" },
-        { "reference": "R31", "pin": "2" },
-        { "reference": "R34", "pin": "1" },
-        { "reference": "R35", "pin": "2" },
-        { "reference": "R45", "pin": "1" },
-        { "reference": "R46", "pin": "1" },
-        { "reference": "R47", "pin": "1" },
-        { "reference": "R52", "pin": "1" },
-        { "reference": "R71", "pin": "2" },
-        { "reference": "R80", "pin": "2" },
-        { "reference": "R89", "pin": "1" },
-        { "reference": "R90", "pin": "2" },
-        { "reference": "R94", "pin": "1" },
-        { "reference": "R95", "pin": "1" },
-        { "reference": "R96", "pin": "1" },
-        { "reference": "R97", "pin": "1" },
-        { "reference": "R98", "pin": "1" },
-        { "reference": "R102", "pin": "1" },
-        { "reference": "R103", "pin": "1" },
-        { "reference": "R104", "pin": "1" },
-        { "reference": "R109", "pin": "2" },
-        { "reference": "SB22", "pin": "1" },
-        { "reference": "SB40", "pin": "2" },
-        { "reference": "SB41", "pin": "2" },
-        { "reference": "U1", "pin": "16" },
-        { "reference": "U1", "pin": "38" },
-        { "reference": "U1", "pin": "51" },
-        { "reference": "U1", "pin": "61" },
-        { "reference": "U1", "pin": "71" },
-        { "reference": "U1", "pin": "83" },
-        { "reference": "U1", "pin": "94" },
-        { "reference": "U1", "pin": "107" },
-        { "reference": "U1", "pin": "120" },
-        { "reference": "U1", "pin": "130" },
-        { "reference": "U1", "pin": "143" },
-        { "reference": "U2", "pin": "D5" },
-        { "reference": "U2", "pin": "D6" },
-        { "reference": "U2", "pin": "D7" },
-        { "reference": "U2", "pin": "D8" },
-        { "reference": "U2", "pin": "D9" },
-        { "reference": "U2", "pin": "F2" },
-        { "reference": "U2", "pin": "F6" },
-        { "reference": "U2", "pin": "F7" },
-        { "reference": "U2", "pin": "F8" },
-        { "reference": "U2", "pin": "F9" },
-        { "reference": "U2", "pin": "F10" },
-        { "reference": "U2", "pin": "F12" },
-        { "reference": "U2", "pin": "G2" },
-        { "reference": "U2", "pin": "G6" },
-        { "reference": "U2", "pin": "G7" },
-        { "reference": "U2", "pin": "G8" },
-        { "reference": "U2", "pin": "G9" },
-        { "reference": "U2", "pin": "G10" },
-        { "reference": "U2", "pin": "G12" },
-        { "reference": "U2", "pin": "H6" },
-        { "reference": "U2", "pin": "H7" },
-        { "reference": "U2", "pin": "H8" },
-        { "reference": "U2", "pin": "H9" },
-        { "reference": "U2", "pin": "H10" },
-        { "reference": "U2", "pin": "H12" },
-        { "reference": "U2", "pin": "J6" },
-        { "reference": "U2", "pin": "J7" },
-        { "reference": "U2", "pin": "J8" },
-        { "reference": "U2", "pin": "J9" },
-        { "reference": "U2", "pin": "J10" },
-        { "reference": "U2", "pin": "K6" },
-        { "reference": "U2", "pin": "K7" },
-        { "reference": "U2", "pin": "K8" },
-        { "reference": "U2", "pin": "K9" },
-        { "reference": "U2", "pin": "K10" },
-        { "reference": "U2", "pin": "L4" },
-        { "reference": "U2", "pin": "M1" },
-        { "reference": "U2", "pin": "M8" },
-        { "reference": "U2", "pin": "M9" },
-        { "reference": "U2", "pin": "N1" },
-        { "reference": "U3", "pin": "3" },
-        { "reference": "U3", "pin": "4" },
-        { "reference": "U4", "pin": "2" },
-        { "reference": "U6", "pin": "2" },
-        { "reference": "U7", "pin": "8" },
-        { "reference": "U7", "pin": "9" },
-        { "reference": "U8", "pin": "2" },
-        { "reference": "U9", "pin": "2" },
-        { "reference": "U11", "pin": "2" },
-        { "reference": "U12", "pin": "2" },
-        { "reference": "U13", "pin": "2" },
-        { "reference": "U14", "pin": "2" },
-        { "reference": "U15", "pin": "2" },
-        { "reference": "U15", "pin": "EP" },
-        { "reference": "U16", "pin": "1" },
-        { "reference": "U42", "pin": "EP" },
-        { "reference": "U18", "pin": "2" },
-        { "reference": "U20", "pin": "4" },
-        { "reference": "U21", "pin": "5" },
-        { "reference": "U22", "pin": "3" },
-        { "reference": "U22", "pin": "4" },
-        { "reference": "U23", "pin": "2" },
-        { "reference": "U24", "pin": "2" },
-        { "reference": "U25", "pin": "2" },
-        { "reference": "U26", "pin": "2" },
-        { "reference": "U27", "pin": "3" },
-        { "reference": "U28", "pin": "5" },
-        { "reference": "U28", "pin": "9" },
-        { "reference": "U29", "pin": "1" },
-        { "reference": "U30", "pin": "2" },
-        { "reference": "U31", "pin": "2" },
-        { "reference": "U32", "pin": "2" },
-        { "reference": "U33", "pin": "2" },
-        { "reference": "U34", "pin": "2" },
-        { "reference": "U35", "pin": "2" },
-        { "reference": "U36", "pin": "2" },
-        { "reference": "U37", "pin": "2" },
-        { "reference": "U38", "pin": "2" },
-        { "reference": "X1", "pin": "2" },
-        { "reference": "X1", "pin": "4" },
-        { "reference": "X3", "pin": "2" },
-        { "reference": "X3", "pin": "4" },
-        { "reference": "X4", "pin": "2" },
-        { "reference": "X4", "pin": "4" }
+        {
+          "reference": "B2",
+          "pin": "1"
+        },
+        {
+          "reference": "B2",
+          "pin": "2"
+        },
+        {
+          "reference": "B3",
+          "pin": "5"
+        },
+        {
+          "reference": "C1",
+          "pin": "1"
+        },
+        {
+          "reference": "C2",
+          "pin": "2"
+        },
+        {
+          "reference": "C3",
+          "pin": "1"
+        },
+        {
+          "reference": "C4",
+          "pin": "1"
+        },
+        {
+          "reference": "C5",
+          "pin": "2"
+        },
+        {
+          "reference": "C6",
+          "pin": "2"
+        },
+        {
+          "reference": "C7",
+          "pin": "1"
+        },
+        {
+          "reference": "C8",
+          "pin": "2"
+        },
+        {
+          "reference": "C9",
+          "pin": "2"
+        },
+        {
+          "reference": "C10",
+          "pin": "2"
+        },
+        {
+          "reference": "C11",
+          "pin": "2"
+        },
+        {
+          "reference": "C12",
+          "pin": "1"
+        },
+        {
+          "reference": "C13",
+          "pin": "2"
+        },
+        {
+          "reference": "C14",
+          "pin": "2"
+        },
+        {
+          "reference": "C15",
+          "pin": "2"
+        },
+        {
+          "reference": "C16",
+          "pin": "2"
+        },
+        {
+          "reference": "C17",
+          "pin": "2"
+        },
+        {
+          "reference": "C18",
+          "pin": "1"
+        },
+        {
+          "reference": "C19",
+          "pin": "1"
+        },
+        {
+          "reference": "C20",
+          "pin": "2"
+        },
+        {
+          "reference": "C21",
+          "pin": "1"
+        },
+        {
+          "reference": "C22",
+          "pin": "1"
+        },
+        {
+          "reference": "C23",
+          "pin": "2"
+        },
+        {
+          "reference": "C24",
+          "pin": "1"
+        },
+        {
+          "reference": "C25",
+          "pin": "2"
+        },
+        {
+          "reference": "C26",
+          "pin": "2"
+        },
+        {
+          "reference": "C27",
+          "pin": "2"
+        },
+        {
+          "reference": "C28",
+          "pin": "2"
+        },
+        {
+          "reference": "C29",
+          "pin": "2"
+        },
+        {
+          "reference": "C30",
+          "pin": "2"
+        },
+        {
+          "reference": "C31",
+          "pin": "2"
+        },
+        {
+          "reference": "C32",
+          "pin": "2"
+        },
+        {
+          "reference": "C33",
+          "pin": "1"
+        },
+        {
+          "reference": "C34",
+          "pin": "1"
+        },
+        {
+          "reference": "C35",
+          "pin": "1"
+        },
+        {
+          "reference": "C36",
+          "pin": "1"
+        },
+        {
+          "reference": "C37",
+          "pin": "1"
+        },
+        {
+          "reference": "C38",
+          "pin": "2"
+        },
+        {
+          "reference": "C39",
+          "pin": "1"
+        },
+        {
+          "reference": "C40",
+          "pin": "1"
+        },
+        {
+          "reference": "C41",
+          "pin": "1"
+        },
+        {
+          "reference": "C42",
+          "pin": "1"
+        },
+        {
+          "reference": "C43",
+          "pin": "1"
+        },
+        {
+          "reference": "C44",
+          "pin": "1"
+        },
+        {
+          "reference": "C45",
+          "pin": "1"
+        },
+        {
+          "reference": "C46",
+          "pin": "1"
+        },
+        {
+          "reference": "C47",
+          "pin": "1"
+        },
+        {
+          "reference": "C48",
+          "pin": "1"
+        },
+        {
+          "reference": "C49",
+          "pin": "1"
+        },
+        {
+          "reference": "C50",
+          "pin": "1"
+        },
+        {
+          "reference": "C51",
+          "pin": "1"
+        },
+        {
+          "reference": "C52",
+          "pin": "1"
+        },
+        {
+          "reference": "C53",
+          "pin": "1"
+        },
+        {
+          "reference": "C54",
+          "pin": "1"
+        },
+        {
+          "reference": "C55",
+          "pin": "1"
+        },
+        {
+          "reference": "C56",
+          "pin": "1"
+        },
+        {
+          "reference": "C59",
+          "pin": "2"
+        },
+        {
+          "reference": "C60",
+          "pin": "1"
+        },
+        {
+          "reference": "C61",
+          "pin": "1"
+        },
+        {
+          "reference": "C62",
+          "pin": "2"
+        },
+        {
+          "reference": "C63",
+          "pin": "1"
+        },
+        {
+          "reference": "C64",
+          "pin": "1"
+        },
+        {
+          "reference": "C65",
+          "pin": "1"
+        },
+        {
+          "reference": "C66",
+          "pin": "1"
+        },
+        {
+          "reference": "C67",
+          "pin": "1"
+        },
+        {
+          "reference": "C68",
+          "pin": "1"
+        },
+        {
+          "reference": "C69",
+          "pin": "1"
+        },
+        {
+          "reference": "C70",
+          "pin": "1"
+        },
+        {
+          "reference": "C71",
+          "pin": "1"
+        },
+        {
+          "reference": "C72",
+          "pin": "1"
+        },
+        {
+          "reference": "C73",
+          "pin": "1"
+        },
+        {
+          "reference": "C74",
+          "pin": "1"
+        },
+        {
+          "reference": "C75",
+          "pin": "1"
+        },
+        {
+          "reference": "C79",
+          "pin": "1"
+        },
+        {
+          "reference": "C80",
+          "pin": "2"
+        },
+        {
+          "reference": "C81",
+          "pin": "1"
+        },
+        {
+          "reference": "C82",
+          "pin": "1"
+        },
+        {
+          "reference": "C83",
+          "pin": "2"
+        },
+        {
+          "reference": "C84",
+          "pin": "2"
+        },
+        {
+          "reference": "C85",
+          "pin": "2"
+        },
+        {
+          "reference": "C86",
+          "pin": "1"
+        },
+        {
+          "reference": "C87",
+          "pin": "2"
+        },
+        {
+          "reference": "C88",
+          "pin": "1"
+        },
+        {
+          "reference": "CN1",
+          "pin": "A1"
+        },
+        {
+          "reference": "CN1",
+          "pin": "A12"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B1"
+        },
+        {
+          "reference": "CN1",
+          "pin": "B12"
+        },
+        {
+          "reference": "CN1",
+          "pin": "SH1"
+        },
+        {
+          "reference": "CN1",
+          "pin": "SH2"
+        },
+        {
+          "reference": "CN1",
+          "pin": "SH3"
+        },
+        {
+          "reference": "CN1",
+          "pin": "SH4"
+        },
+        {
+          "reference": "CN2",
+          "pin": "1"
+        },
+        {
+          "reference": "CN2",
+          "pin": "2"
+        },
+        {
+          "reference": "CN3",
+          "pin": "1"
+        },
+        {
+          "reference": "CN3",
+          "pin": "2"
+        },
+        {
+          "reference": "CN4",
+          "pin": "3"
+        },
+        {
+          "reference": "CN4",
+          "pin": "5"
+        },
+        {
+          "reference": "CN4",
+          "pin": "9"
+        },
+        {
+          "reference": "CN4",
+          "pin": "15"
+        },
+        {
+          "reference": "CN4",
+          "pin": "17"
+        },
+        {
+          "reference": "CN4",
+          "pin": "19"
+        },
+        {
+          "reference": "CN5",
+          "pin": "7"
+        },
+        {
+          "reference": "CN6",
+          "pin": "6"
+        },
+        {
+          "reference": "CN6",
+          "pin": "7"
+        },
+        {
+          "reference": "CN7",
+          "pin": "8"
+        },
+        {
+          "reference": "CN7",
+          "pin": "19"
+        },
+        {
+          "reference": "CN7",
+          "pin": "20"
+        },
+        {
+          "reference": "CN7",
+          "pin": "22"
+        },
+        {
+          "reference": "CN10",
+          "pin": "9"
+        },
+        {
+          "reference": "CN10",
+          "pin": "20"
+        },
+        {
+          "reference": "CN11",
+          "pin": "11"
+        },
+        {
+          "reference": "CN11",
+          "pin": "22"
+        },
+        {
+          "reference": "CN12",
+          "pin": "1"
+        },
+        {
+          "reference": "CN12",
+          "pin": "16"
+        },
+        {
+          "reference": "CN12",
+          "pin": "25"
+        },
+        {
+          "reference": "CN13",
+          "pin": "A1"
+        },
+        {
+          "reference": "CN13",
+          "pin": "A12"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B1"
+        },
+        {
+          "reference": "CN13",
+          "pin": "B12"
+        },
+        {
+          "reference": "CN13",
+          "pin": "SH1"
+        },
+        {
+          "reference": "CN13",
+          "pin": "SH2"
+        },
+        {
+          "reference": "CN13",
+          "pin": "SH3"
+        },
+        {
+          "reference": "CN13",
+          "pin": "SH4"
+        },
+        {
+          "reference": "CN15",
+          "pin": "1"
+        },
+        {
+          "reference": "CN15",
+          "pin": "2"
+        },
+        {
+          "reference": "CN16",
+          "pin": "1"
+        },
+        {
+          "reference": "CN16",
+          "pin": "2"
+        },
+        {
+          "reference": "CN17",
+          "pin": "3"
+        },
+        {
+          "reference": "CN19",
+          "pin": "1"
+        },
+        {
+          "reference": "CN19",
+          "pin": "7"
+        },
+        {
+          "reference": "CN19",
+          "pin": "23"
+        },
+        {
+          "reference": "CN19",
+          "pin": "24"
+        },
+        {
+          "reference": "CN19",
+          "pin": "29"
+        },
+        {
+          "reference": "CN19",
+          "pin": "30"
+        },
+        {
+          "reference": "CN19",
+          "pin": "33"
+        },
+        {
+          "reference": "CN19",
+          "pin": "36"
+        },
+        {
+          "reference": "CN19",
+          "pin": "39"
+        },
+        {
+          "reference": "CN19",
+          "pin": "44"
+        },
+        {
+          "reference": "CN19",
+          "pin": "45"
+        },
+        {
+          "reference": "CN19",
+          "pin": "50"
+        },
+        {
+          "reference": "CN19",
+          "pin": "51"
+        },
+        {
+          "reference": "CN19",
+          "pin": "57"
+        },
+        {
+          "reference": "CN19",
+          "pin": "63"
+        },
+        {
+          "reference": "CN19",
+          "pin": "69"
+        },
+        {
+          "reference": "CN19",
+          "pin": "70"
+        },
+        {
+          "reference": "CN19",
+          "pin": "75"
+        },
+        {
+          "reference": "CN19",
+          "pin": "S1"
+        },
+        {
+          "reference": "CN19",
+          "pin": "S2"
+        },
+        {
+          "reference": "HW6",
+          "pin": "1"
+        },
+        {
+          "reference": "JP3",
+          "pin": "2"
+        },
+        {
+          "reference": "LD4",
+          "pin": "3"
+        },
+        {
+          "reference": "LD6",
+          "pin": "3"
+        },
+        {
+          "reference": "LD7",
+          "pin": "2"
+        },
+        {
+          "reference": "Q1",
+          "pin": "2"
+        },
+        {
+          "reference": "Q2",
+          "pin": "2"
+        },
+        {
+          "reference": "Q3",
+          "pin": "2"
+        },
+        {
+          "reference": "Q4",
+          "pin": "2"
+        },
+        {
+          "reference": "R5",
+          "pin": "2"
+        },
+        {
+          "reference": "R8",
+          "pin": "2"
+        },
+        {
+          "reference": "R14",
+          "pin": "2"
+        },
+        {
+          "reference": "R21",
+          "pin": "1"
+        },
+        {
+          "reference": "R22",
+          "pin": "1"
+        },
+        {
+          "reference": "R26",
+          "pin": "2"
+        },
+        {
+          "reference": "R31",
+          "pin": "2"
+        },
+        {
+          "reference": "R34",
+          "pin": "1"
+        },
+        {
+          "reference": "R35",
+          "pin": "2"
+        },
+        {
+          "reference": "R45",
+          "pin": "1"
+        },
+        {
+          "reference": "R46",
+          "pin": "1"
+        },
+        {
+          "reference": "R47",
+          "pin": "1"
+        },
+        {
+          "reference": "R52",
+          "pin": "1"
+        },
+        {
+          "reference": "R71",
+          "pin": "2"
+        },
+        {
+          "reference": "R80",
+          "pin": "2"
+        },
+        {
+          "reference": "R89",
+          "pin": "1"
+        },
+        {
+          "reference": "R90",
+          "pin": "2"
+        },
+        {
+          "reference": "R94",
+          "pin": "1"
+        },
+        {
+          "reference": "R95",
+          "pin": "1"
+        },
+        {
+          "reference": "R96",
+          "pin": "1"
+        },
+        {
+          "reference": "R97",
+          "pin": "1"
+        },
+        {
+          "reference": "R98",
+          "pin": "1"
+        },
+        {
+          "reference": "R102",
+          "pin": "1"
+        },
+        {
+          "reference": "R103",
+          "pin": "1"
+        },
+        {
+          "reference": "R104",
+          "pin": "1"
+        },
+        {
+          "reference": "R109",
+          "pin": "2"
+        },
+        {
+          "reference": "SB22",
+          "pin": "1"
+        },
+        {
+          "reference": "SB40",
+          "pin": "2"
+        },
+        {
+          "reference": "SB41",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "16"
+        },
+        {
+          "reference": "U1",
+          "pin": "38"
+        },
+        {
+          "reference": "U1",
+          "pin": "51"
+        },
+        {
+          "reference": "U1",
+          "pin": "61"
+        },
+        {
+          "reference": "U1",
+          "pin": "71"
+        },
+        {
+          "reference": "U1",
+          "pin": "83"
+        },
+        {
+          "reference": "U1",
+          "pin": "94"
+        },
+        {
+          "reference": "U1",
+          "pin": "107"
+        },
+        {
+          "reference": "U1",
+          "pin": "120"
+        },
+        {
+          "reference": "U1",
+          "pin": "130"
+        },
+        {
+          "reference": "U1",
+          "pin": "143"
+        },
+        {
+          "reference": "U2",
+          "pin": "D5"
+        },
+        {
+          "reference": "U2",
+          "pin": "D6"
+        },
+        {
+          "reference": "U2",
+          "pin": "D7"
+        },
+        {
+          "reference": "U2",
+          "pin": "D8"
+        },
+        {
+          "reference": "U2",
+          "pin": "D9"
+        },
+        {
+          "reference": "U2",
+          "pin": "F2"
+        },
+        {
+          "reference": "U2",
+          "pin": "F6"
+        },
+        {
+          "reference": "U2",
+          "pin": "F7"
+        },
+        {
+          "reference": "U2",
+          "pin": "F8"
+        },
+        {
+          "reference": "U2",
+          "pin": "F9"
+        },
+        {
+          "reference": "U2",
+          "pin": "F10"
+        },
+        {
+          "reference": "U2",
+          "pin": "F12"
+        },
+        {
+          "reference": "U2",
+          "pin": "G2"
+        },
+        {
+          "reference": "U2",
+          "pin": "G6"
+        },
+        {
+          "reference": "U2",
+          "pin": "G7"
+        },
+        {
+          "reference": "U2",
+          "pin": "G8"
+        },
+        {
+          "reference": "U2",
+          "pin": "G9"
+        },
+        {
+          "reference": "U2",
+          "pin": "G10"
+        },
+        {
+          "reference": "U2",
+          "pin": "G12"
+        },
+        {
+          "reference": "U2",
+          "pin": "H6"
+        },
+        {
+          "reference": "U2",
+          "pin": "H7"
+        },
+        {
+          "reference": "U2",
+          "pin": "H8"
+        },
+        {
+          "reference": "U2",
+          "pin": "H9"
+        },
+        {
+          "reference": "U2",
+          "pin": "H10"
+        },
+        {
+          "reference": "U2",
+          "pin": "H12"
+        },
+        {
+          "reference": "U2",
+          "pin": "J6"
+        },
+        {
+          "reference": "U2",
+          "pin": "J7"
+        },
+        {
+          "reference": "U2",
+          "pin": "J8"
+        },
+        {
+          "reference": "U2",
+          "pin": "J9"
+        },
+        {
+          "reference": "U2",
+          "pin": "J10"
+        },
+        {
+          "reference": "U2",
+          "pin": "K6"
+        },
+        {
+          "reference": "U2",
+          "pin": "K7"
+        },
+        {
+          "reference": "U2",
+          "pin": "K8"
+        },
+        {
+          "reference": "U2",
+          "pin": "K9"
+        },
+        {
+          "reference": "U2",
+          "pin": "K10"
+        },
+        {
+          "reference": "U2",
+          "pin": "L4"
+        },
+        {
+          "reference": "U2",
+          "pin": "M1"
+        },
+        {
+          "reference": "U2",
+          "pin": "M8"
+        },
+        {
+          "reference": "U2",
+          "pin": "M9"
+        },
+        {
+          "reference": "U2",
+          "pin": "N1"
+        },
+        {
+          "reference": "U3",
+          "pin": "3"
+        },
+        {
+          "reference": "U3",
+          "pin": "4"
+        },
+        {
+          "reference": "U4",
+          "pin": "2"
+        },
+        {
+          "reference": "U6",
+          "pin": "2"
+        },
+        {
+          "reference": "U7",
+          "pin": "8"
+        },
+        {
+          "reference": "U7",
+          "pin": "9"
+        },
+        {
+          "reference": "U8",
+          "pin": "2"
+        },
+        {
+          "reference": "U9",
+          "pin": "2"
+        },
+        {
+          "reference": "U11",
+          "pin": "2"
+        },
+        {
+          "reference": "U12",
+          "pin": "2"
+        },
+        {
+          "reference": "U13",
+          "pin": "2"
+        },
+        {
+          "reference": "U14",
+          "pin": "2"
+        },
+        {
+          "reference": "U15",
+          "pin": "2"
+        },
+        {
+          "reference": "U15",
+          "pin": "EP"
+        },
+        {
+          "reference": "U16",
+          "pin": "1"
+        },
+        {
+          "reference": "U18",
+          "pin": "2"
+        },
+        {
+          "reference": "U20",
+          "pin": "4"
+        },
+        {
+          "reference": "U21",
+          "pin": "5"
+        },
+        {
+          "reference": "U22",
+          "pin": "3"
+        },
+        {
+          "reference": "U22",
+          "pin": "4"
+        },
+        {
+          "reference": "U23",
+          "pin": "2"
+        },
+        {
+          "reference": "U24",
+          "pin": "2"
+        },
+        {
+          "reference": "U25",
+          "pin": "2"
+        },
+        {
+          "reference": "U26",
+          "pin": "2"
+        },
+        {
+          "reference": "U27",
+          "pin": "3"
+        },
+        {
+          "reference": "U28",
+          "pin": "5"
+        },
+        {
+          "reference": "U28",
+          "pin": "9"
+        },
+        {
+          "reference": "U29",
+          "pin": "1"
+        },
+        {
+          "reference": "U30",
+          "pin": "2"
+        },
+        {
+          "reference": "U31",
+          "pin": "2"
+        },
+        {
+          "reference": "U32",
+          "pin": "2"
+        },
+        {
+          "reference": "U33",
+          "pin": "2"
+        },
+        {
+          "reference": "U34",
+          "pin": "2"
+        },
+        {
+          "reference": "U35",
+          "pin": "2"
+        },
+        {
+          "reference": "U36",
+          "pin": "2"
+        },
+        {
+          "reference": "U37",
+          "pin": "2"
+        },
+        {
+          "reference": "U38",
+          "pin": "2"
+        },
+        {
+          "reference": "X1",
+          "pin": "2"
+        },
+        {
+          "reference": "X1",
+          "pin": "4"
+        },
+        {
+          "reference": "X3",
+          "pin": "2"
+        },
+        {
+          "reference": "X3",
+          "pin": "4"
+        },
+        {
+          "reference": "X4",
+          "pin": "2"
+        },
+        {
+          "reference": "X4",
+          "pin": "4"
+        },
+        {
+          "reference": "U42",
+          "pin": "6"
+        },
+        {
+          "reference": "U42",
+          "pin": "7"
+        },
+        {
+          "reference": "U42",
+          "pin": "EP"
+        }
       ]
     },
     {
       "netId": 292,
       "netLabel": "FDCAN.TX",
       "net": [
-        { "reference": "SB47", "pin": "2" },
-        { "reference": "U26", "pin": "1" }
+        {
+          "reference": "SB47",
+          "pin": "2"
+        },
+        {
+          "reference": "U26",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 293,
       "netLabel": "FDCAN.STBY",
       "net": [
-        { "reference": "R109", "pin": "1" },
-        { "reference": "SB50", "pin": "2" },
-        { "reference": "U26", "pin": "8" }
+        {
+          "reference": "R109",
+          "pin": "1"
+        },
+        {
+          "reference": "SB50",
+          "pin": "2"
+        },
+        {
+          "reference": "U26",
+          "pin": "8"
+        }
       ]
     },
     {
       "netId": 294,
       "netLabel": "FDCAN.RX",
       "net": [
-        { "reference": "SB46", "pin": "2" },
-        { "reference": "U26", "pin": "4" }
+        {
+          "reference": "SB46",
+          "pin": "2"
+        },
+        {
+          "reference": "U26",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 295,
       "netLabel": "DBGIN.VCP_TX",
       "net": [
-        { "reference": "R16", "pin": "2" },
-        { "reference": "SB11", "pin": "2" },
-        { "reference": "U1", "pin": "36" }
+        {
+          "reference": "R16",
+          "pin": "2"
+        },
+        {
+          "reference": "SB11",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "36"
+        }
       ]
     },
     {
       "netId": 296,
       "netLabel": "DBGIN.VCP_RX",
       "net": [
-        { "reference": "R20", "pin": "2" },
-        { "reference": "SB12", "pin": "2" },
-        { "reference": "U1", "pin": "37" }
+        {
+          "reference": "R20",
+          "pin": "2"
+        },
+        {
+          "reference": "SB12",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "37"
+        }
       ]
     },
     {
       "netId": 297,
       "netLabel": "DBGIN.SWO",
       "net": [
-        { "reference": "CN4", "pin": "6" },
-        { "reference": "R24", "pin": "2" },
-        { "reference": "SB16", "pin": "1" },
-        { "reference": "U1", "pin": "133" },
-        { "reference": "U32", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "6"
+        },
+        {
+          "reference": "R24",
+          "pin": "2"
+        },
+        {
+          "reference": "SB16",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "133"
+        },
+        {
+          "reference": "U32",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 298,
       "netLabel": "DBGIN.SWDIO",
       "net": [
-        { "reference": "CN4", "pin": "2" },
-        { "reference": "R41", "pin": "2" },
-        { "reference": "SB13", "pin": "1" },
-        { "reference": "U1", "pin": "105" },
-        { "reference": "U30", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "2"
+        },
+        {
+          "reference": "R41",
+          "pin": "2"
+        },
+        {
+          "reference": "SB13",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "105"
+        },
+        {
+          "reference": "U30",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 299,
       "netLabel": "DBGIN.SWCLK",
       "net": [
-        { "reference": "CN4", "pin": "4" },
-        { "reference": "R15", "pin": "2" },
-        { "reference": "SB14", "pin": "1" },
-        { "reference": "U1", "pin": "109" },
-        { "reference": "U31", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "4"
+        },
+        {
+          "reference": "R15",
+          "pin": "2"
+        },
+        {
+          "reference": "SB14",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "109"
+        },
+        {
+          "reference": "U31",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 300,
       "netLabel": "DBGIN.MCO",
       "net": [
-        { "reference": "C3", "pin": "2" },
-        { "reference": "R7", "pin": "2" },
-        { "reference": "SB5", "pin": "2" },
-        { "reference": "TP1", "pin": "1" }
+        {
+          "reference": "C3",
+          "pin": "2"
+        },
+        {
+          "reference": "R7",
+          "pin": "2"
+        },
+        {
+          "reference": "SB5",
+          "pin": "2"
+        },
+        {
+          "reference": "TP1",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 301,
       "netLabel": "DBGIN.JTDI",
       "net": [
-        { "reference": "CN4", "pin": "8" },
-        { "reference": "R40", "pin": "2" },
-        { "reference": "R53", "pin": "1" },
-        { "reference": "SB15", "pin": "1" },
-        { "reference": "U33", "pin": "1" }
+        {
+          "reference": "CN4",
+          "pin": "8"
+        },
+        {
+          "reference": "R40",
+          "pin": "2"
+        },
+        {
+          "reference": "R53",
+          "pin": "1"
+        },
+        {
+          "reference": "SB15",
+          "pin": "1"
+        },
+        {
+          "reference": "U33",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 302,
       "netLabel": "CAN_P",
       "net": [
-        { "reference": "CN20", "pin": "1" },
-        { "reference": "JP2", "pin": "2" },
-        { "reference": "U26", "pin": "7" },
-        { "reference": "U27", "pin": "1" }
+        {
+          "reference": "CN20",
+          "pin": "1"
+        },
+        {
+          "reference": "JP2",
+          "pin": "2"
+        },
+        {
+          "reference": "U26",
+          "pin": "7"
+        },
+        {
+          "reference": "U27",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 303,
       "netLabel": "CAN_N",
       "net": [
-        { "reference": "CN20", "pin": "2" },
-        { "reference": "R110", "pin": "1" },
-        { "reference": "U26", "pin": "6" },
-        { "reference": "U27", "pin": "2" }
+        {
+          "reference": "CN20",
+          "pin": "2"
+        },
+        {
+          "reference": "R110",
+          "pin": "1"
+        },
+        {
+          "reference": "U26",
+          "pin": "6"
+        },
+        {
+          "reference": "U27",
+          "pin": "2"
+        }
       ]
     },
     {
       "netId": 304,
       "netLabel": "BOOT0",
       "net": [
-        { "reference": "B3", "pin": "1" },
-        { "reference": "B3", "pin": "3" },
-        { "reference": "CN7", "pin": "7" },
-        { "reference": "R45", "pin": "2" },
-        { "reference": "U1", "pin": "138" },
-        { "reference": "U12", "pin": "1" }
+        {
+          "reference": "B3",
+          "pin": "1"
+        },
+        {
+          "reference": "B3",
+          "pin": "3"
+        },
+        {
+          "reference": "CN7",
+          "pin": "7"
+        },
+        {
+          "reference": "R45",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "138"
+        },
+        {
+          "reference": "U12",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 305,
       "netLabel": "AGND",
       "net": [
-        { "reference": "C57", "pin": "1" },
-        { "reference": "C58", "pin": "1" },
-        { "reference": "CN10", "pin": "32" },
-        { "reference": "SB22", "pin": "2" },
-        { "reference": "U1", "pin": "31" }
+        {
+          "reference": "C57",
+          "pin": "1"
+        },
+        {
+          "reference": "C58",
+          "pin": "1"
+        },
+        {
+          "reference": "CN10",
+          "pin": "32"
+        },
+        {
+          "reference": "SB22",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "31"
+        }
       ]
     },
     {
       "netId": 306,
       "netLabel": "5V_VIN",
       "net": [
-        { "reference": "C41", "pin": "2" },
-        { "reference": "JP1", "pin": "3" },
-        { "reference": "R50", "pin": "2" },
-        { "reference": "TP8", "pin": "1" },
-        { "reference": "U16", "pin": "2" },
-        { "reference": "U16", "pin": "4" }
+        {
+          "reference": "C41",
+          "pin": "2"
+        },
+        {
+          "reference": "JP1",
+          "pin": "3"
+        },
+        {
+          "reference": "R50",
+          "pin": "2"
+        },
+        {
+          "reference": "TP8",
+          "pin": "1"
+        },
+        {
+          "reference": "U16",
+          "pin": "2"
+        },
+        {
+          "reference": "U16",
+          "pin": "4"
+        }
       ]
     },
     {
       "netId": 307,
       "netLabel": "5V_USB_SNK",
       "net": [
-        { "reference": "JP1", "pin": "7" },
-        { "reference": "R87", "pin": "2" },
-        { "reference": "R101", "pin": "2" },
-        { "reference": "R105", "pin": "2" },
-        { "reference": "U20", "pin": "5" },
-        { "reference": "U20", "pin": "6" }
+        {
+          "reference": "JP1",
+          "pin": "7"
+        },
+        {
+          "reference": "R87",
+          "pin": "2"
+        },
+        {
+          "reference": "R101",
+          "pin": "2"
+        },
+        {
+          "reference": "R105",
+          "pin": "2"
+        },
+        {
+          "reference": "U20",
+          "pin": "5"
+        },
+        {
+          "reference": "U20",
+          "pin": "6"
+        }
       ]
     },
     {
       "netId": 308,
       "netLabel": "5V_STLK",
       "net": [
-        { "reference": "C21", "pin": "2" },
-        { "reference": "C22", "pin": "2" },
-        { "reference": "CN10", "pin": "8" },
-        { "reference": "JP1", "pin": "1" },
-        { "reference": "R38", "pin": "1" },
-        { "reference": "U7", "pin": "5" },
-        { "reference": "U7", "pin": "6" },
-        { "reference": "U8", "pin": "1" }
+        {
+          "reference": "C21",
+          "pin": "2"
+        },
+        {
+          "reference": "C22",
+          "pin": "2"
+        },
+        {
+          "reference": "CN10",
+          "pin": "8"
+        },
+        {
+          "reference": "JP1",
+          "pin": "1"
+        },
+        {
+          "reference": "R38",
+          "pin": "1"
+        },
+        {
+          "reference": "U7",
+          "pin": "5"
+        },
+        {
+          "reference": "U7",
+          "pin": "6"
+        },
+        {
+          "reference": "U8",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 309,
       "netLabel": "5V_EXT",
       "net": [
-        { "reference": "CN7", "pin": "6" },
-        { "reference": "JP1", "pin": "5" }
+        {
+          "reference": "CN7",
+          "pin": "6"
+        },
+        {
+          "reference": "JP1",
+          "pin": "5"
+        }
       ]
     },
     {
       "netId": 310,
       "netLabel": "5V",
       "net": [
-        { "reference": "C39", "pin": "2" },
-        { "reference": "C40", "pin": "2" },
-        { "reference": "C83", "pin": "1" },
-        { "reference": "CN6", "pin": "5" },
-        { "reference": "CN7", "pin": "18" },
-        { "reference": "D2", "pin": "1" },
-        { "reference": "JP1", "pin": "2" },
-        { "reference": "JP1", "pin": "4" },
-        { "reference": "JP1", "pin": "6" },
-        { "reference": "JP1", "pin": "8" },
-        { "reference": "JP4", "pin": "1" },
-        { "reference": "R25", "pin": "2" },
-        { "reference": "R44", "pin": "2" },
-        { "reference": "SB52", "pin": "1" },
-        { "reference": "U15", "pin": "1" },
-        { "reference": "U15", "pin": "6" },
-        { "reference": "U26", "pin": "3" }
+        {
+          "reference": "C39",
+          "pin": "2"
+        },
+        {
+          "reference": "C40",
+          "pin": "2"
+        },
+        {
+          "reference": "C83",
+          "pin": "1"
+        },
+        {
+          "reference": "CN6",
+          "pin": "5"
+        },
+        {
+          "reference": "CN7",
+          "pin": "18"
+        },
+        {
+          "reference": "D2",
+          "pin": "1"
+        },
+        {
+          "reference": "JP1",
+          "pin": "2"
+        },
+        {
+          "reference": "JP1",
+          "pin": "4"
+        },
+        {
+          "reference": "JP1",
+          "pin": "6"
+        },
+        {
+          "reference": "JP1",
+          "pin": "8"
+        },
+        {
+          "reference": "JP4",
+          "pin": "1"
+        },
+        {
+          "reference": "R25",
+          "pin": "2"
+        },
+        {
+          "reference": "R44",
+          "pin": "2"
+        },
+        {
+          "reference": "SB52",
+          "pin": "1"
+        },
+        {
+          "reference": "U15",
+          "pin": "1"
+        },
+        {
+          "reference": "U15",
+          "pin": "6"
+        },
+        {
+          "reference": "U26",
+          "pin": "3"
+        }
       ]
     },
     {
       "netId": 311,
       "netLabel": "3V3_STLK",
       "net": [
-        { "reference": "C5", "pin": "1" },
-        { "reference": "C6", "pin": "1" },
-        { "reference": "C8", "pin": "1" },
-        { "reference": "C9", "pin": "1" },
-        { "reference": "C13", "pin": "1" },
-        { "reference": "C14", "pin": "1" },
-        { "reference": "C15", "pin": "1" },
-        { "reference": "C16", "pin": "1" },
-        { "reference": "C17", "pin": "1" },
-        { "reference": "C20", "pin": "1" },
-        { "reference": "C23", "pin": "1" },
-        { "reference": "C25", "pin": "1" },
-        { "reference": "C26", "pin": "1" },
-        { "reference": "C28", "pin": "1" },
-        { "reference": "C29", "pin": "1" },
-        { "reference": "C30", "pin": "1" },
-        { "reference": "C31", "pin": "1" },
-        { "reference": "C35", "pin": "2" },
-        { "reference": "CN17", "pin": "1" },
-        { "reference": "LD4", "pin": "4" },
-        { "reference": "LD6", "pin": "4" },
-        { "reference": "R23", "pin": "1" },
-        { "reference": "R29", "pin": "2" },
-        { "reference": "R33", "pin": "2" },
-        { "reference": "U2", "pin": "C1" },
-        { "reference": "U2", "pin": "C5" },
-        { "reference": "U2", "pin": "C6" },
-        { "reference": "U2", "pin": "C7" },
-        { "reference": "U2", "pin": "C8" },
-        { "reference": "U2", "pin": "C9" },
-        { "reference": "U2", "pin": "F3" },
-        { "reference": "U2", "pin": "G3" },
-        { "reference": "U2", "pin": "G13" },
-        { "reference": "U2", "pin": "H13" },
-        { "reference": "U2", "pin": "J12" },
-        { "reference": "U2", "pin": "J13" },
-        { "reference": "U2", "pin": "K4" },
-        { "reference": "U2", "pin": "N8" },
-        { "reference": "U2", "pin": "N9" },
-        { "reference": "U2", "pin": "N10" },
-        { "reference": "U2", "pin": "P1" },
-        { "reference": "U2", "pin": "R1" },
-        { "reference": "U11", "pin": "1" }
+        {
+          "reference": "C5",
+          "pin": "1"
+        },
+        {
+          "reference": "C6",
+          "pin": "1"
+        },
+        {
+          "reference": "C8",
+          "pin": "1"
+        },
+        {
+          "reference": "C9",
+          "pin": "1"
+        },
+        {
+          "reference": "C13",
+          "pin": "1"
+        },
+        {
+          "reference": "C14",
+          "pin": "1"
+        },
+        {
+          "reference": "C15",
+          "pin": "1"
+        },
+        {
+          "reference": "C16",
+          "pin": "1"
+        },
+        {
+          "reference": "C17",
+          "pin": "1"
+        },
+        {
+          "reference": "C20",
+          "pin": "1"
+        },
+        {
+          "reference": "C23",
+          "pin": "1"
+        },
+        {
+          "reference": "C25",
+          "pin": "1"
+        },
+        {
+          "reference": "C26",
+          "pin": "1"
+        },
+        {
+          "reference": "C28",
+          "pin": "1"
+        },
+        {
+          "reference": "C29",
+          "pin": "1"
+        },
+        {
+          "reference": "C30",
+          "pin": "1"
+        },
+        {
+          "reference": "C31",
+          "pin": "1"
+        },
+        {
+          "reference": "C35",
+          "pin": "2"
+        },
+        {
+          "reference": "CN17",
+          "pin": "1"
+        },
+        {
+          "reference": "LD4",
+          "pin": "4"
+        },
+        {
+          "reference": "LD6",
+          "pin": "4"
+        },
+        {
+          "reference": "R23",
+          "pin": "1"
+        },
+        {
+          "reference": "R29",
+          "pin": "2"
+        },
+        {
+          "reference": "R33",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "C1"
+        },
+        {
+          "reference": "U2",
+          "pin": "C5"
+        },
+        {
+          "reference": "U2",
+          "pin": "C6"
+        },
+        {
+          "reference": "U2",
+          "pin": "C7"
+        },
+        {
+          "reference": "U2",
+          "pin": "C8"
+        },
+        {
+          "reference": "U2",
+          "pin": "C9"
+        },
+        {
+          "reference": "U2",
+          "pin": "F3"
+        },
+        {
+          "reference": "U2",
+          "pin": "G3"
+        },
+        {
+          "reference": "U2",
+          "pin": "G13"
+        },
+        {
+          "reference": "U2",
+          "pin": "H13"
+        },
+        {
+          "reference": "U2",
+          "pin": "J12"
+        },
+        {
+          "reference": "U2",
+          "pin": "J13"
+        },
+        {
+          "reference": "U2",
+          "pin": "K4"
+        },
+        {
+          "reference": "U2",
+          "pin": "N8"
+        },
+        {
+          "reference": "U2",
+          "pin": "N9"
+        },
+        {
+          "reference": "U2",
+          "pin": "N10"
+        },
+        {
+          "reference": "U2",
+          "pin": "P1"
+        },
+        {
+          "reference": "U2",
+          "pin": "R1"
+        },
+        {
+          "reference": "U11",
+          "pin": "1"
+        }
       ]
     },
     {
       "netId": 312,
       "netLabel": "3V3_SPE",
       "net": [
-        { "reference": "C73", "pin": "2" },
-        { "reference": "SB34", "pin": "2" },
-        { "reference": "U21", "pin": "2" },
-        { "reference": "U21", "pin": "8" }
+        {
+          "reference": "C73",
+          "pin": "2"
+        },
+        {
+          "reference": "SB34",
+          "pin": "2"
+        },
+        {
+          "reference": "U21",
+          "pin": "2"
+        },
+        {
+          "reference": "U21",
+          "pin": "8"
+        }
       ]
     },
     {
       "netId": 313,
       "netLabel": "3V3",
       "net": [
-        { "reference": "B1", "pin": "3" },
-        { "reference": "B1", "pin": "4" },
-        { "reference": "B3", "pin": "2" },
-        { "reference": "B3", "pin": "4" },
-        { "reference": "C63", "pin": "2" },
-        { "reference": "C82", "pin": "2" },
-        { "reference": "C84", "pin": "1" },
-        { "reference": "CN4", "pin": "1" },
-        { "reference": "CN6", "pin": "2" },
-        { "reference": "CN6", "pin": "4" },
-        { "reference": "CN7", "pin": "5" },
-        { "reference": "CN7", "pin": "12" },
-        { "reference": "CN7", "pin": "16" },
-        { "reference": "CN19", "pin": "2" },
-        { "reference": "CN19", "pin": "4" },
-        { "reference": "CN19", "pin": "64" },
-        { "reference": "CN19", "pin": "72" },
-        { "reference": "CN19", "pin": "74" },
-        { "reference": "JP5", "pin": "1" },
-        { "reference": "L1", "pin": "1" },
-        { "reference": "LNK1", "pin": "1" },
-        { "reference": "Q2", "pin": "1" },
-        { "reference": "Q3", "pin": "1" },
-        { "reference": "R17", "pin": "2" },
-        { "reference": "R18", "pin": "2" },
-        { "reference": "R19", "pin": "2" },
-        { "reference": "R68", "pin": "2" },
-        { "reference": "R69", "pin": "2" },
-        { "reference": "R72", "pin": "2" },
-        { "reference": "R75", "pin": "2" },
-        { "reference": "R77", "pin": "2" },
-        { "reference": "R89", "pin": "2" },
-        { "reference": "R90", "pin": "1" },
-        { "reference": "R108", "pin": "2" },
-        { "reference": "R112", "pin": "2" },
-        { "reference": "R115", "pin": "1" },
-        { "reference": "SB34", "pin": "1" },
-        { "reference": "SB53", "pin": "1" },
-        { "reference": "TP7", "pin": "1" },
-        { "reference": "U9", "pin": "1" },
-        { "reference": "U42", "pin": "9" },
-        { "reference": "U26", "pin": "5" }
+        {
+          "reference": "B1",
+          "pin": "3"
+        },
+        {
+          "reference": "B1",
+          "pin": "4"
+        },
+        {
+          "reference": "B3",
+          "pin": "2"
+        },
+        {
+          "reference": "B3",
+          "pin": "4"
+        },
+        {
+          "reference": "C63",
+          "pin": "2"
+        },
+        {
+          "reference": "C82",
+          "pin": "2"
+        },
+        {
+          "reference": "C84",
+          "pin": "1"
+        },
+        {
+          "reference": "CN4",
+          "pin": "1"
+        },
+        {
+          "reference": "CN6",
+          "pin": "2"
+        },
+        {
+          "reference": "CN6",
+          "pin": "4"
+        },
+        {
+          "reference": "CN7",
+          "pin": "5"
+        },
+        {
+          "reference": "CN7",
+          "pin": "12"
+        },
+        {
+          "reference": "CN7",
+          "pin": "16"
+        },
+        {
+          "reference": "CN19",
+          "pin": "2"
+        },
+        {
+          "reference": "CN19",
+          "pin": "4"
+        },
+        {
+          "reference": "CN19",
+          "pin": "64"
+        },
+        {
+          "reference": "CN19",
+          "pin": "72"
+        },
+        {
+          "reference": "CN19",
+          "pin": "74"
+        },
+        {
+          "reference": "JP5",
+          "pin": "1"
+        },
+        {
+          "reference": "L1",
+          "pin": "1"
+        },
+        {
+          "reference": "LNK1",
+          "pin": "1"
+        },
+        {
+          "reference": "Q2",
+          "pin": "1"
+        },
+        {
+          "reference": "Q3",
+          "pin": "1"
+        },
+        {
+          "reference": "R17",
+          "pin": "2"
+        },
+        {
+          "reference": "R18",
+          "pin": "2"
+        },
+        {
+          "reference": "R19",
+          "pin": "2"
+        },
+        {
+          "reference": "R68",
+          "pin": "2"
+        },
+        {
+          "reference": "R69",
+          "pin": "2"
+        },
+        {
+          "reference": "R72",
+          "pin": "2"
+        },
+        {
+          "reference": "R75",
+          "pin": "2"
+        },
+        {
+          "reference": "R77",
+          "pin": "2"
+        },
+        {
+          "reference": "R89",
+          "pin": "2"
+        },
+        {
+          "reference": "R90",
+          "pin": "1"
+        },
+        {
+          "reference": "R108",
+          "pin": "2"
+        },
+        {
+          "reference": "R112",
+          "pin": "2"
+        },
+        {
+          "reference": "R115",
+          "pin": "1"
+        },
+        {
+          "reference": "SB34",
+          "pin": "1"
+        },
+        {
+          "reference": "SB53",
+          "pin": "1"
+        },
+        {
+          "reference": "TP7",
+          "pin": "1"
+        },
+        {
+          "reference": "U9",
+          "pin": "1"
+        },
+        {
+          "reference": "U26",
+          "pin": "5"
+        },
+        {
+          "reference": "U42",
+          "pin": "1"
+        },
+        {
+          "reference": "U42",
+          "pin": "5"
+        },
+        {
+          "reference": "U42",
+          "pin": "8"
+        },
+        {
+          "reference": "U42",
+          "pin": "12"
+        }
       ]
     }
   ]

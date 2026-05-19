@@ -46,7 +46,7 @@
       <package vendor="STMicroelectronics" name="crystal_hw-part" version="2.1.0"/>
       <package vendor="STMicroelectronics" name="esd_hw-part" version="2.1.0"/>
       <package vendor="STMicroelectronics" name="led_hw-part" version="2.3.0"/>
-      <package vendor="MyVendor" name="my-hw-part" version="1.0.0"/>
+      <package vendor="MyVendor" name="myhwpart_hw-part" version="2.0.0"/>
       <package vendor="STMicroelectronics" name="st-link_hw-part" version="2.0.0"/>
     </packages>
   </requirements>
@@ -88,7 +88,7 @@
       <mountedPart Hvendor="NDK" Hname="NX1610SE" Hvariant="NX1610SE-32.768KHz-EXS00A-MU01499" n="1"/>
       <mountedPart Hvendor="NDK" Hname="NX1612SA" Hvariant="NX1612SA-48MHz-EXS00A-CS13835" n="1"/>
       <mountedPart Hvendor="STMicroelectronics" Hname="ECMF2-40A100N6" Hvariant="ECMF2-40A100N6" n="1"/>
-      <mountedPart Hvendor="MyVendor" Hname="my-hw-part" Hvariant="MY-HW-PART-ETH" n="1"/>
+      <mountedPart Hvendor="MyVendor" Hname="MyHwPart" Hvariant="MyHwPart-AB-CD" n="1"/>
       <mountedPart Hvendor="STMicroelectronics" Hname="STLINK-V3EC" n="1"/>
     </board>
   </boards>

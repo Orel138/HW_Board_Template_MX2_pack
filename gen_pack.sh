@@ -118,11 +118,11 @@ function preprocess() {
   local pack_root="${CMSIS_PACK_ROOT}"
   local web_dir="${pack_root}/.Web"
   local local_dir="${pack_root}/.Local"
-  local local_pack_dir="${local_dir}/MyVendor.my-hw-part"
+  local local_pack_dir="${local_dir}/MyVendor.myhwpart_hw-part"
   local local_pack_url="file://localhost/${local_pack_dir}/"
-  local myvendor_release_pack_url="https://github.com/Orel138/HW_Part_Template_MX2_pack/releases/download/v1.0.0/MyVendor.my-hw-part.1.0.0.pack"
+  local myvendor_release_pack_url="https://github.com/Orel138/HW_Part_Template_MX2_pack/releases/download/v2.0.0/MyVendor.myhwpart_hw-part.2.0.0.pack"
   local myvendor_repo_base_url="https://raw.githubusercontent.com/Orel138/HW_Part_Template_MX2_pack/main"
-  local myvendor_pack_archive="${TEMP:-/tmp}/MyVendor.my-hw-part.1.0.0.pack"
+  local myvendor_pack_archive="${TEMP:-/tmp}/MyVendor.myhwpart_hw-part.2.0.0.pack"
 
   mkdir -p "${web_dir}"
   cat > "${web_dir}/index.pidx" <<'EOF'
@@ -150,9 +150,12 @@ EOF
     "${UTILITY_ZIP}" x -y "-o${local_pack_dir}" "${myvendor_pack_archive}" >/dev/null
   else
     mkdir -p "${local_pack_dir}/Descriptors/pinout"
-    curl_download "${myvendor_repo_base_url}/MyVendor.my-hw-part.pdsc" "${local_pack_dir}/MyVendor.my-hw-part.pdsc"
-    curl_download "${myvendor_repo_base_url}/LICENSE.md" "${local_pack_dir}/LICENSE.md"
-    curl_download "${myvendor_repo_base_url}/Descriptors/pinout/my-hw-part_pinout.json" "${local_pack_dir}/Descriptors/pinout/my-hw-part_pinout.json"
+    mkdir -p "${local_pack_dir}/Descriptors/parameters"
+    mkdir -p "${local_pack_dir}/Documents"
+    curl_download "${myvendor_repo_base_url}/MyVendor.myhwpart_hw-part.pdsc" "${local_pack_dir}/MyVendor.myhwpart_hw-part.pdsc"
+    curl_download "${myvendor_repo_base_url}/Descriptors/pinout/myhwparttr_pinout.json" "${local_pack_dir}/Descriptors/pinout/myhwparttr_pinout.json"
+    curl_download "${myvendor_repo_base_url}/Descriptors/parameters/myhwparttr_parameters.schema.json" "${local_pack_dir}/Descriptors/parameters/myhwparttr_parameters.schema.json"
+    curl_download "${myvendor_repo_base_url}/Descriptors/parameters/myhwparttr_parameters.json" "${local_pack_dir}/Descriptors/parameters/myhwparttr_parameters.json"
   fi
 
   cat > "${local_dir}/local_repository.pidx" <<EOF
@@ -161,7 +164,7 @@ EOF
   <vendor>local_repository</vendor>
   <timestamp>2026-05-02T00:00:00Z</timestamp>
   <pindex>
-    <pdsc url="${local_pack_url}" vendor="MyVendor" name="my-hw-part" version="1.0.0"/>
+    <pdsc url="${local_pack_url}" vendor="MyVendor" name="myhwpart_hw-part" version="2.0.0"/>
   </pindex>
 </index>
 EOF
